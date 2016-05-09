@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="portfolioApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joshua Ciaralli Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.min.js"></script>
+    <script type="text/javascript" src="js/angular-cookies.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.module.js"></script>
+</head>
+
+<body ng-controller="mainController">
+    <div class="container my-nav">
+        <header id="header" class="">
+            <nav class="navbar navbar-default" role="navigation">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="navbar-header">
+ <!--                    <h1 class="navbar-brand"><a href="#"> Joshua Ciaralli<span class="sep"></span>
+</a></h1> -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1,#bs-example-navbar-collapse-2"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                </div>
+                <div class="menumob">
+                    <div class="navbar-collapse navbar-left" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#/">Home</a></li>
+                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/mygrub">Midterm Project - My Grub</a></li>  <!-- // Done -->
+                                    <li><a href="/">Final Project - Ticketing System - Progress</a></li>
+                                    <li><a href="/blackjack">Black Jack - Coming Soon</a></li>
+                                    <li><a href="/">Google Maps - Coming Soon</a></li>
+                                    <li><a href="/">Movie App - Coming Soon</a></li>
+                                    <li><a href="/">Digital Roast - Coffee Site - Coming Soon</a></li>
+                                    <li><a href="/digitalgrub">Digital Grub - Food Site - Coming Soon</a></li>
+                                    <li><a href="/">Youtube Mock Up - Wireframe</a></li> <!-- // Done -->
+                                    <li><a href="/twitter">Twitter Feed App</a></li>      <!-- // Done -->
+                                    <li><a href="/">Goblin Game - Canvas Game - Coming Soon</a></li>
+                                    <li><a href="/">Marvel Character Universe Voting App - Coming Soon</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#/resume">Resume</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-collapse navbar-right" id="bs-example-navbar-collapse-2">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#/contact">Contact</a></li>
+                            <li><a href="#/about">About</a></li>
+                            <li><a href="#/FAQ">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <!-- /header -->
+    <div ng-view></div>
+</body>
+
+</html>

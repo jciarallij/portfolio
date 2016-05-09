@@ -1,0 +1,47 @@
+.project-img {
+	min-height: 250px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+body {
+	background-color: white;
+}
+
+.container {
+
+}
+
+.crystal img {
+	width: 5%;
+	margin-top: 50px;
+}
+
+.my-nav {
+	padding: 0px;
+/*	width: 100%;*/
+}
+
+.navbar-default {
+     background-color: lightgray; 
+     border-color: transparent; 
+	 min-height: 85px;
+	 padding: 0px;
+	 margin-bottom: 0px;
+	 border-radius: 0px;
+}
+
+.projects {
+/*	background-image: url("../img/parchment.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background-color: lightgray;
+}
+
+.about {
+	background-color: gray;
+	min-height: 400px;
+}
