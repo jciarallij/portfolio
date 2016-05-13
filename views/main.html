@@ -1,4 +1,5 @@
 <div class="container carousel-wrapper">
+    <div id="caption-wrapper"></div>
     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="item"> <img alt="First slide" src="img/slider-twitter.jpg">
@@ -27,18 +28,18 @@
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon carousel-control-left"></span></a> <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon carousel-control-right"></span></a> </div>
-    <div class="row text-center no-margin about">
+    <div class="row text-left no-margin about">
         <div class="container headings">
-            <h1 class="page_title">About Me</h1>
+        <h1 class="section-title"><span class="big-letter">A</span>bout Me</h1>
             <p class="small-paragraph">Filler Info: Web Developer, Father, Gamer, Anime Nerd!</p>
             <!-- <p><a class="btn btn-info btn-lg" href="#" role="button">read more</a> -->
         </div>
     </div>
     <div class="row  three__blocks text-center no_padding no-margin">
         <div class="container projects">
-            <div class="separator crystal"><img src="img/fantasy-crystal.gif" alt="crystal"></div>
-            <h2><span>Projects</span></h2>
-            <p class="small-paragraph">Web Development Projects</p>
+            <div class="separator crystal"><!-- img src="img/fantasy-crystal.gif" alt="crystal"> --></div>
+            <h2 class="text-left section-title"><span class="big-letter">P</span>rojects</h2>
+            <p class="small-paragraph text-left">Web Development Projects</p>
             <div class="row">
                 <div class="col-md-4">
                     <h3><small><a href="#/final-project">Final Project</a></small></h3>
@@ -88,7 +89,7 @@
                     <!-- <p><a class="btn btn-info btn-lg" href="#" role="button">Learn more</a> -->
                 </div>
             </div>
-            <div class="row">
+            <div class="row btm-row">
                 <div class="col-md-4">
                     <h3><small><a href="#/movie-app">Movie App</a></small></h3>
                     <p class="smaller"><small>Movie App website.</small></p>
@@ -113,26 +114,33 @@
             </div>
         </div>
     </div>
-    <div class="row text-center">
+    <div id="skills-wrapper" class="row text-left">
         <div class="container">
 <!--             <div class="separator crystal"><img src="img/fantasy-crystal.gif" alt="crystal"></div> -->
-            <h2><span>Skills:</span></h2>
+            <h2 class="section-title"><span class="big-letter">S</span>kills:</h2>
             <p class="small-paragraph">My current web developement skills.</p>
-            <div class="col-md-6">
-                <h3>Front-End</h3>
+            <div class="col-md-2">
+                <h3>MEAN Stack</h3>
+                <li>MongoDB</li>
+                <li>Express</li>
+                <li>Angular</li>
+                <li>Node.js</li>
+            </div>
+            <div class="col-md-2">
+                <h3>LAMP Stack</h3>
+                <li>Linux</li>
+                <li>Apache - ubuntu</li>
+                <li>mySql</li>
+                <li>PHP</li>
+            </div>
+            <div class="col-md-2">
+                <h3>More Skills</h3>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>Javascript</li>
                 <li>jQuery</li>
-                <li>Angular</li>
-            </div>
-            <div class="col-md-6">
-                <h3>Back-End</h3>
-                <li>Node.js</li>
-                <li>Express</li>
-                <li>PHP</li>
-                <li>Apache</li>
-                <li>Linux</li>
+                <li>Mongoose</li>
+                <li>Git</li>
             </div>
         </div>
     </div>
