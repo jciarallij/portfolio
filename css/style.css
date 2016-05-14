@@ -36,51 +36,56 @@ h3 {
 }
 
 /* line 25, ../compass/sass/_base.scss */
+.fa {
+  margin-right: 5px;
+}
+
+/* line 29, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
 
-/* line 29, ../compass/sass/_base.scss */
+/* line 33, ../compass/sass/_base.scss */
 .navbar-nav > li > a {
   padding-top: 30px;
   padding-bottom: 15px;
 }
 
-/* line 34, ../compass/sass/_base.scss */
+/* line 38, ../compass/sass/_base.scss */
 .big-letter {
   font-family: "Kelly", sans-serif;
   font-size: 60px;
 }
 
-/* line 39, ../compass/sass/_base.scss */
+/* line 43, ../compass/sass/_base.scss */
 body {
   background-color: white;
 }
 
-/* line 44, ../compass/sass/_base.scss */
+/* line 48, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 48, ../compass/sass/_base.scss */
+/* line 52, ../compass/sass/_base.scss */
 footer .container {
   border-bottom: 2px solid black;
   min-height: 300px;
   background-color: skyblue;
 }
 
-/* line 54, ../compass/sass/_base.scss */
+/* line 58, ../compass/sass/_base.scss */
 .crystal img {
   width: 5%;
   margin-top: 50px;
 }
 
-/* line 59, ../compass/sass/_base.scss */
+/* line 63, ../compass/sass/_base.scss */
 .my-nav {
   padding: 0px;
 }
 
-/* line 63, ../compass/sass/_base.scss */
+/* line 67, ../compass/sass/_base.scss */
 .navbar-default {
   background-color: lightgray;
   border-color: transparent;
@@ -90,7 +95,7 @@ footer .container {
   border-radius: 0px;
 }
 
-/* line 72, ../compass/sass/_base.scss */
+/* line 76, ../compass/sass/_base.scss */
 #skills-wrapper {
   border-top: 1px solid black;
   border-bottom: 2px solid black;
@@ -100,7 +105,7 @@ footer .container {
   min-height: 400px;
 }
 
-/* line 81, ../compass/sass/_base.scss */
+/* line 85, ../compass/sass/_base.scss */
 .projects {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -109,7 +114,7 @@ footer .container {
   background-size: 100% 100%;
 }
 
-/* line 90, ../compass/sass/_base.scss */
+/* line 94, ../compass/sass/_base.scss */
 .about {
   border-top: 2px solid black;
   border-bottom: 1px solid black;
@@ -119,12 +124,12 @@ footer .container {
   min-height: 400px;
 }
 
-/* line 99, ../compass/sass/_base.scss */
+/* line 103, ../compass/sass/_base.scss */
 .carousel-wrapper {
   padding: 0px;
 }
 
-/* line 103, ../compass/sass/_base.scss */
+/* line 107, ../compass/sass/_base.scss */
 #caption-wrapper {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -136,13 +141,13 @@ footer .container {
 }
 
 /*Carousel*/
-/* line 115, ../compass/sass/_base.scss */
+/* line 119, ../compass/sass/_base.scss */
 .slider {
   position: relative;
   z-index: 9;
 }
 
-/* line 120, ../compass/sass/_base.scss */
+/* line 124, ../compass/sass/_base.scss */
 .absolute__img {
   position: absolute;
   bottom: -10px;
@@ -151,12 +156,12 @@ footer .container {
   z-index: 99;
 }
 
-/* line 128, ../compass/sass/_base.scss */
+/* line 132, ../compass/sass/_base.scss */
 .slider .btn {
   margin: 40px 10px 0;
 }
 
-/* line 132, ../compass/sass/_base.scss */
+/* line 136, ../compass/sass/_base.scss */
 .carousel-caption {
   position: absolute;
   z-index: 500;
@@ -169,20 +174,20 @@ footer .container {
   color: black;
 }
 
-/* line 144, ../compass/sass/_base.scss */
+/* line 148, ../compass/sass/_base.scss */
 .carousel-caption h1 {
   font-size: 36px;
   line-height: 36px;
   color: #fff;
 }
 
-/* line 150, ../compass/sass/_base.scss */
+/* line 154, ../compass/sass/_base.scss */
 .carousel-caption p {
   font-weight: 300;
   margin: 0;
 }
 
-/* line 155, ../compass/sass/_base.scss */
+/* line 159, ../compass/sass/_base.scss */
 .carousel-caption h1 span {
   color: #ffdd3c;
   border: 2px solid #fff;
@@ -194,7 +199,7 @@ footer .container {
   -o-border-radius: 4px;
 }
 
-/* line 166, ../compass/sass/_base.scss */
+/* line 170, ../compass/sass/_base.scss */
 .carousel-control {
   background: none;
   opacity: 1;
@@ -204,68 +209,68 @@ footer .container {
   -moz-opacity: 1;
 }
 
-/* line 175, ../compass/sass/_base.scss */
+/* line 179, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-left {
-  background: url("../img/prev.png") no-repeat;
+  background: url("../img/linkedin.png") no-repeat;
   width: 70px;
   height: 71px;
   left: 20px;
 }
 
-/* line 182, ../compass/sass/_base.scss */
+/* line 186, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-right {
-  background: url("../img/next.png") no-repeat;
+  background: url("../img/linkedin.png") no-repeat;
   width: 70px;
   height: 71px;
   right: 20px;
 }
 
-/* line 189, ../compass/sass/_base.scss */
-.carousel-control .carousel-control-left:hover {
-  background: url("../img/prev_a.png") no-repeat;
-}
-
 /* line 193, ../compass/sass/_base.scss */
-.carousel-control .carousel-control-right:hover {
-  background: url("../img/next_a.png") no-repeat;
+.carousel-control .carousel-control-left:hover {
+  background: url("../img/linkedin.png") no-repeat;
 }
 
 /* line 197, ../compass/sass/_base.scss */
+.carousel-control .carousel-control-right:hover {
+  background: url("../img/linkedin.png") no-repeat;
+}
+
+/* line 201, ../compass/sass/_base.scss */
 .boxed .carousel-control .carousel-control-left {
   left: -150px;
   top: 270px;
 }
 
-/* line 202, ../compass/sass/_base.scss */
+/* line 206, ../compass/sass/_base.scss */
 .boxed .carousel-control .carousel-control-right {
   right: -150px;
   top: 270px;
 }
 
-/* line 207, ../compass/sass/_base.scss */
+/* line 211, ../compass/sass/_base.scss */
 .boxed .carousel-caption {
   top: 90px;
 }
 
-/* line 211, ../compass/sass/_base.scss */
+/* line 215, ../compass/sass/_base.scss */
 .boxess {
   background-color: #fff;
 }
 
-/* line 215, ../compass/sass/_base.scss */
+/* line 219, ../compass/sass/_base.scss */
 .boxess .carousel-caption h1 {
   font-size: 40px;
   line-height: 40px;
 }
 
-/* line 220, ../compass/sass/_base.scss */
+/* line 224, ../compass/sass/_base.scss */
 .row {
   margin-right: 0px;
   margin-left: 0px;
 }
 
 /*/* Main Content*/
-/* line 227, ../compass/sass/_base.scss */
+/* line 231, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;

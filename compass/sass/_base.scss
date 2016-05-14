@@ -22,6 +22,10 @@ h3 {
     color: black;
 }
 
+.fa {
+    margin-right: 5px;
+}
+
 .project-img {
     min-height: 250px;
 }
@@ -173,25 +177,25 @@ footer .container {
 }
 
 .carousel-control .carousel-control-left {
-    background: url('../img/prev.png') no-repeat;
+    background: url('../img/linkedin.png') no-repeat;
     width: 70px;
     height: 71px;
     left: 20px;
 }
 
 .carousel-control .carousel-control-right {
-    background: url('../img/next.png') no-repeat;
+    background: url('../img/linkedin.png') no-repeat;
     width: 70px;
     height: 71px;
     right: 20px;
 }
 
 .carousel-control .carousel-control-left:hover {
-    background: url('../img/prev_a.png') no-repeat;
+    background: url('../img/linkedin.png') no-repeat;
 }
 
 .carousel-control .carousel-control-right:hover {
-    background: url('../img/next_a.png') no-repeat;
+    background: url('../img/linkedin.png') no-repeat;
 }
 
 .boxed .carousel-control .carousel-control-left {
