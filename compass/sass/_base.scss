@@ -20,6 +20,30 @@ h3 {
     font-family: Livingst;
     font-size: 40px;
     color: black;
+    float: left;
+}
+
+.wax-icon {
+    background: none;
+}
+
+.my-projects {
+    padding: 5px;
+}
+
+#contact-section {
+    // color: white;
+}
+
+.hover-text:hover {
+    display: block;
+    width: 50px;
+    color: white;
+}
+
+.hover-text {
+    display: none;
+
 }
 
 .fa {
@@ -40,6 +64,20 @@ h3 {
     font-size: 60px;
 }
 
+#my-footer {
+    background-color: #222;
+    border-color: #080808;
+    min-height: 85px;
+    color: #ffd700;
+    text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+p.footer-text {
+    margin-top: 35px;
+
+}
+
 body {
     background-color: white;
     
@@ -53,25 +91,58 @@ footer .container {
 	border-bottom: 2px solid black;
     min-height: 300px;
 	background-color: skyblue;
+    background: $contact-section-tex;
+    background-size: 100% 100%;
 }
 
+
 .crystal img {
-    width: 5%;
-    margin-top: 50px;
+    width: 40px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.crystal-two {
+    width: 40px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.content-text {
+    clear: both;
 }
 
 .my-nav {
     padding: 0px;
 }
 
-.navbar-default {
-    background-color: lightgray;
-    border-color: transparent;
+.navbar-inverse {
+    // background-color: black;
+    // // background: $nav-tex;
+    // // background-size: 100%;
+    // border-color: transparent;
     min-height: 85px;
     padding: 0px;
     margin-bottom: 0px;
     border-radius: 0px;
 }
+
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #ffd700;
+    text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
+    &:hover {
+        // color: #D462FF;
+        color: lightgray;
+        text-shadow: none;
+    }
+}
+
+
 
 #skills-wrapper {
     border-top: 1px solid black;
@@ -92,7 +163,7 @@ footer .container {
 }
 
 .about {
-    border-top: 2px solid black;
+    // border-top: 2px solid black;
     border-bottom: 1px solid black;
     background-color: gray;
     background: $book-tex;

@@ -1,0 +1,340 @@
+// .hovereffect {
+//   width: 100%;
+//   height: 100%;
+//   float: left;
+//   overflow: hidden;
+//   position: relative;
+//   text-align: center;
+//   cursor: default;
+// }
+
+// .hovereffect .overlay {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   overflow: hidden;
+//   left: 0;
+//   // background-color: rgba(255, 255, 255, 0.7);
+//   background-color: rgba(212, 98, 255, 0.7);
+//   top: -200px;
+//   opacity: 0;
+//   filter: alpha(opacity=0);
+//   -webkit-transition: all 0.1s ease-out 0.5s;
+//   transition: all 0.1s ease-out 0.5s;
+//   border-radius: 6px;
+// }
+
+// .hovereffect:hover .overlay {
+//   opacity: 1;
+//   filter: alpha(opacity=100);
+//   top: 0px;
+//   -webkit-transition-delay: 0s;
+//   transition-delay: 0s;
+// }
+
+// .hovereffect img {
+//   display: block;
+//   position: relative;
+// }
+
+// .hovereffect h2 {
+//   text-transform: uppercase;
+//   color: #fff;
+//   text-align: center;
+//   position: relative;
+//   font-size: 17px;
+//   padding: 10px;
+//   background: rgba(0, 0, 0, 0.6);
+//   -webkit-transform: translateY(-200px);
+//   -ms-transform: translateY(-200px);
+//   transform: translateY(-200px);
+//   -webkit-transition: all ease-in-out 0.1s;
+//   transition: all ease-in-out 0.1s;
+//   -webkit-transition-delay: 0.3s;
+//   transition-delay: 0.3s;
+// }
+
+// .hovereffect:hover h2 {
+//   -webkit-transform: translateY(0px);
+//   -ms-transform: translateY(0px);
+//   transform: translateY(0px);
+//   -webkit-transition-delay: 0.3s;
+//   transition-delay: 0.3s;
+// }
+
+// .hovereffect a.info {
+//   display: inline-block;
+//   text-decoration: none;
+//   padding: 7px 14px;
+//   text-transform: uppercase;
+//   margin: 50px 0 0 0;
+//   background-color: transparent;
+//   -webkit-transform: translateY(-200px);
+//   -ms-transform: translateY(-200px);
+//   transform: translateY(-200px);
+//   color: #000;
+//   border: 1px solid #000;
+//   -webkit-transition: all ease-in-out 0.3s;
+//   transition: all ease-in-out 0.3s;
+// }
+
+// .hovereffect a.info:hover {
+//   box-shadow: 0 0 5px #fff;
+// }
+//   .title-link {
+//     &:hover {
+//       text-decoration: none;
+//     }
+//   }
+
+
+// .hovereffect:hover a.info {
+//   -webkit-transform: translateY(0px);
+//   -ms-transform: translateY(0px);
+//   transform: translateY(0px);
+//   box-shadow: 0 0 5px #000;
+//   color: #000;
+//   border: 1px solid #000;
+//   -webkit-transition-delay: 0.3s;
+//   transition-delay: 0.3s;
+// }
+
+
+
+// Secondary Hover Effect
+
+
+// .hovereffect {
+//     width: 100%;
+//     height: 100%;
+//     float: left;
+//     overflow: hidden;
+//     position: relative;
+//     text-align: center;
+//     cursor: default;
+// }
+// .hovereffect .overlay {
+//     width: 100%;
+//     position: absolute;
+//     overflow: hidden;
+//     left: 0;
+//   top: auto;
+//   bottom: 0;
+//   padding: 1em;
+//   height: 4.75em;
+//   background: #79FAC4;
+//   color: #3c4a50;
+//   -webkit-transition: -webkit-transform 0.35s;
+//   transition: transform 0.35s;
+//   -webkit-transform: translate3d(0,100%,0);
+//   transform: translate3d(0,100%,0);
+// }
+
+// .hovereffect img {
+//     display: block;
+//     position: relative;
+//   -webkit-transition: -webkit-transform 0.35s;
+//   transition: transform 0.35s;
+// }
+
+// .hovereffect:hover img {
+// -webkit-transform: translate3d(0,-10%,0);
+//   transform: translate3d(0,-10%,0);
+// }
+
+// .hovereffect h2 {
+//     text-transform: uppercase;
+//     color: #fff;
+//     text-align: center;
+//     position: relative;
+//     font-size: 17px;
+//     padding: 10px;
+//     background: rgba(0, 0, 0, 0.6);
+//   float: left;
+//   margin: 0px;
+//   display: inline-block;
+// }
+
+// .hovereffect a.info {
+//     display: inline-block;
+//     text-decoration: none;
+//     padding: 7px 14px;
+//     text-transform: uppercase;
+//   color: #fff;
+//   border: 1px solid #fff;
+//   margin: 50px 0 0 0;
+//   background-color: transparent;
+// }
+// .hovereffect a.info:hover {
+//     box-shadow: 0 0 5px #fff;
+// }
+
+
+// .hovereffect p.icon-links a {
+//   float: right;
+//   color: #3c4a50;
+//   font-size: 1.4em;
+// }
+
+// .hovereffect:hover p.icon-links a:hover,
+// .hovereffect:hover p.icon-links a:focus {
+//   color: #252d31;
+// }
+
+// .hovereffect h2,
+// .hovereffect p.icon-links a {
+//   -webkit-transition: -webkit-transform 0.35s;
+//   transition: transform 0.35s;
+//   -webkit-transform: translate3d(0,200%,0);
+//   transform: translate3d(0,200%,0);
+// }
+
+// .hovereffect p.icon-links a span:before {
+//   display: inline-block;
+//   padding: 8px 10px;
+//   speak: none;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+
+// .hovereffect:hover .overlay,
+// .hovereffect:hover h2,
+// .hovereffect:hover p.icon-links a {
+//   -webkit-transform: translate3d(0,0,0);
+//   transform: translate3d(0,0,0);
+// }
+
+// .hovereffect:hover h2 {
+//   -webkit-transition-delay: 0.05s;
+//   transition-delay: 0.05s;
+// }
+
+// .hovereffect:hover p.icon-links a:nth-child(3) {
+//   -webkit-transition-delay: 0.1s;
+//   transition-delay: 0.1s;
+// }
+
+// .hovereffect:hover p.icon-links a:nth-child(2) {
+//   -webkit-transition-delay: 0.15s;
+//   transition-delay: 0.15s;
+// }
+
+// .hovereffect:hover p.icon-links a:first-child {
+//   -webkit-transition-delay: 0.2s;
+//   transition-delay: 0.2s;
+// }
+
+
+
+
+
+// Third hover effect 
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  // background: #D462FF;
+  background: lightgray;
+  border-radius: none;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: transparent;
+  text-shadow: none;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect:hover h2{
+  color: #ffd700;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
+}
+
+a.title-link:hover {
+  text-decoration: none;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ffd700;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+  text-decoration: none;
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  color: #ffd700;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
+}
+
+.hovereffect a, .hovereffect p {
+  color: #ffd700;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+img .right-corner {
+  border-radius: 10%;
+}
