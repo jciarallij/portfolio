@@ -11,6 +11,50 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,700,600|Montserrat:400,700">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script>
+    $(document).ready(function() {
+
+      $('body').smoothScroll({
+        delegateSelector: 'ul.nav a'
+      });
+
+      $('p.subnav a').click(function(event) {
+        event.preventDefault();
+        var link = this;
+        $.smoothScroll({
+          scrollTarget: link.hash
+        });
+      });
+
+      $('#change-speed').bind('click', function() {
+        var $p1 = $('ul.nav a').first();
+        var p1Opts = $p1.smoothScroll('options') || {};
+
+        p1Opts.speed = p1Opts.speed === 1400 ? 400 : 1400;
+        $p1.smoothScroll('options', p1Opts);
+      });
+
+      // $('button.scrollsomething').bind('click', function(event) {
+      //   event.preventDefault();
+      //   $.smoothScroll({
+      //     scrollElement: $('div.scrollme'),
+      //     scrollTarget: '#findme'
+      //   });
+      // });
+      // $('button.scrollhorz').bind('click', function(event) {
+      //   event.preventDefault();
+      //   $.smoothScroll({
+      //     direction: 'left',
+      //     scrollElement: $('div.scrollme'),
+      //     scrollTarget: '.horiz'
+      //   });
+
+      // });
+
+    });
+
+  </script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script type="text/javascript" src="js/angular-route.min.js"></script>
     <script type="text/javascript" src="js/angular-cookies.min.js"></script>
@@ -36,12 +80,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#/"><span class="fa fa-home"></span> Home</a></li>
-                        <li><a href="#/projects"><span class="fa fa-file-code-o"></span> Projects</a></li>
+                        <li><a href="#home"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="#my-projects-section"><span class="fa fa-file-code-o"></span> Projects</a></li>
                         <!--                         <li><a href="#/about"><span class="fa fa-book"></span> About Me</a></li> -->
                     </ul>
                     <ul class="nav navbar-nav navbar-right" ng-cloak>
-                        <li><a href="#/contact"><span class="fa fa-envelope"></span> Contact</a></li>
+                        <li><a href="#contact-section"><span class="fa fa-envelope"></span> Contact</a></li>
                         <li><a href="#/resume"><span class="fa fa-file-text-o"></span> Resume</a></li>
                     </ul>
                 </div>
