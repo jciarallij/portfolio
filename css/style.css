@@ -150,19 +150,19 @@ footer .container {
   border-radius: 0px;
 }
 
-/* line 134, ../compass/sass/_base.scss */
+/* line 130, ../compass/sass/_base.scss */
 .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
 }
-/* line 138, ../compass/sass/_base.scss */
+/* line 134, ../compass/sass/_base.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: lightgray;
   text-shadow: none;
 }
 
-/* line 147, ../compass/sass/_base.scss */
+/* line 143, ../compass/sass/_base.scss */
 #skills-wrapper {
   border-top: 1px solid black;
   border-bottom: 2px solid black;
@@ -172,7 +172,7 @@ footer .container {
   min-height: 400px;
 }
 
-/* line 156, ../compass/sass/_base.scss */
+/* line 152, ../compass/sass/_base.scss */
 .projects {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -181,8 +181,9 @@ footer .container {
   background-size: 100% 100%;
 }
 
-/* line 165, ../compass/sass/_base.scss */
+/* line 161, ../compass/sass/_base.scss */
 .about {
+  border-top: 2px solid black;
   border-bottom: 1px solid black;
   background-color: gray;
   background: url("../img/papertexture4.jpg") no-repeat;
@@ -190,30 +191,21 @@ footer .container {
   min-height: 400px;
 }
 
-/* line 174, ../compass/sass/_base.scss */
+/* line 170, ../compass/sass/_base.scss */
 .carousel-wrapper {
   padding: 0px;
-}
-
-/* line 178, ../compass/sass/_base.scss */
-#caption-wrapper {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  width: 100%;
-  height: 80px;
+  min-height: 850px;
   background-color: lightgray;
-  background: url("../img/papertexture4.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 
 /*Carousel*/
-/* line 190, ../compass/sass/_base.scss */
+/* line 179, ../compass/sass/_base.scss */
 .slider {
   position: relative;
   z-index: 9;
 }
 
-/* line 195, ../compass/sass/_base.scss */
+/* line 184, ../compass/sass/_base.scss */
 .absolute__img {
   position: absolute;
   bottom: -10px;
@@ -222,38 +214,49 @@ footer .container {
   z-index: 99;
 }
 
-/* line 203, ../compass/sass/_base.scss */
+/* line 192, ../compass/sass/_base.scss */
 .slider .btn {
   margin: 40px 10px 0;
 }
 
-/* line 207, ../compass/sass/_base.scss */
+/* line 196, ../compass/sass/_base.scss */
 .carousel-caption {
-  position: absolute;
-  z-index: 500;
-  top: 4%;
-  margin-top: -120px;
   font-size: 14px;
   color: #fff;
   text-transform: none;
-  text-shadow: 2px 2px 3px #666666;
-  color: black;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 219, ../compass/sass/_base.scss */
+/* line 205, ../compass/sass/_base.scss */
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: -16px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 217, ../compass/sass/_base.scss */
 .carousel-caption h1 {
   font-size: 36px;
   line-height: 36px;
   color: #fff;
+  text-transform: uppercase;
+  color: gray;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 225, ../compass/sass/_base.scss */
+/* line 226, ../compass/sass/_base.scss */
 .carousel-caption p {
   font-weight: 300;
   margin: 0;
 }
 
-/* line 230, ../compass/sass/_base.scss */
+/* line 231, ../compass/sass/_base.scss */
 .carousel-caption h1 span {
   color: #ffdd3c;
   border: 2px solid #fff;
@@ -265,84 +268,93 @@ footer .container {
   -o-border-radius: 4px;
 }
 
-/* line 241, ../compass/sass/_base.scss */
+/* line 242, ../compass/sass/_base.scss */
 .carousel-control {
   background: none;
   opacity: 1;
   position: absolute;
-  top: 50%;
+  top: 0px;
   margin-top: -35px;
   -moz-opacity: 1;
 }
 
-/* line 250, ../compass/sass/_base.scss */
+/* line 251, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-left {
-  background: url("../img/linkedin.png") no-repeat;
+  background: url("../img/arrowleft.png") no-repeat;
   width: 70px;
   height: 71px;
-  left: 20px;
+  left: 10px;
+  top: 50%;
+  position: absolute;
 }
 
-/* line 257, ../compass/sass/_base.scss */
+/* line 260, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-right {
-  background: url("../img/linkedin.png") no-repeat;
+  background: url("../img/arrowright.png") no-repeat;
   width: 70px;
   height: 71px;
-  right: 20px;
+  right: -20px;
+  top: 50%;
+  position: absolute;
 }
 
-/* line 264, ../compass/sass/_base.scss */
+/* line 269, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-left:hover {
-  background: url("../img/linkedin.png") no-repeat;
+  background: url("../img/arrowlefttwo.png") no-repeat;
 }
 
-/* line 268, ../compass/sass/_base.scss */
+/* line 273, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-right:hover {
-  background: url("../img/linkedin.png") no-repeat;
+  background: url("../img/arrowrighttwo.png") no-repeat;
 }
 
-/* line 272, ../compass/sass/_base.scss */
+/* line 277, ../compass/sass/_base.scss */
+.carousel-control.right, .carousel-control.left {
+  top: 36px;
+}
+
+/* line 281, ../compass/sass/_base.scss */
 .boxed .carousel-control .carousel-control-left {
   left: -150px;
   top: 270px;
 }
 
-/* line 277, ../compass/sass/_base.scss */
+/* line 286, ../compass/sass/_base.scss */
 .boxed .carousel-control .carousel-control-right {
   right: -150px;
   top: 270px;
 }
 
-/* line 282, ../compass/sass/_base.scss */
+/* line 291, ../compass/sass/_base.scss */
 .boxed .carousel-caption {
-  top: 90px;
+  top: 120px;
 }
 
-/* line 286, ../compass/sass/_base.scss */
+/* line 295, ../compass/sass/_base.scss */
 .boxess {
   background-color: #fff;
 }
 
-/* line 290, ../compass/sass/_base.scss */
+/* line 299, ../compass/sass/_base.scss */
 .boxess .carousel-caption h1 {
   font-size: 40px;
   line-height: 40px;
 }
 
-/* line 295, ../compass/sass/_base.scss */
+/* line 304, ../compass/sass/_base.scss */
 .row {
   margin-right: 0px;
   margin-left: 0px;
 }
 
 /*/* Main Content*/
-/* line 302, ../compass/sass/_base.scss */
+/* line 311, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;
 }
 
-/* line 234, ../compass/sass/_hovereffect.scss */
+/* line 1, ../compass/sass/_hovereffect.scss */
 .hovereffect {
   width: 100%;
   height: 100%;
@@ -355,7 +367,7 @@ footer .container {
   border-radius: none;
 }
 
-/* line 247, ../compass/sass/_hovereffect.scss */
+/* line 14, ../compass/sass/_hovereffect.scss */
 .hovereffect .overlay {
   width: 100%;
   height: 100%;
@@ -366,7 +378,7 @@ footer .container {
   padding: 50px 20px;
 }
 
-/* line 257, ../compass/sass/_hovereffect.scss */
+/* line 24, ../compass/sass/_hovereffect.scss */
 .hovereffect img {
   display: block;
   position: relative;
@@ -380,7 +392,7 @@ footer .container {
   backface-visibility: hidden;
 }
 
-/* line 270, ../compass/sass/_hovereffect.scss */
+/* line 37, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover img {
   opacity: 0.4;
   filter: alpha(opacity=40);
@@ -388,7 +400,7 @@ footer .container {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 277, ../compass/sass/_hovereffect.scss */
+/* line 44, ../compass/sass/_hovereffect.scss */
 .hovereffect h2 {
   text-transform: uppercase;
   color: transparent;
@@ -401,18 +413,18 @@ footer .container {
   background-color: transparent;
 }
 
-/* line 289, ../compass/sass/_hovereffect.scss */
+/* line 56, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover h2 {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 294, ../compass/sass/_hovereffect.scss */
+/* line 61, ../compass/sass/_hovereffect.scss */
 a.title-link:hover {
   text-decoration: none;
 }
 
-/* line 298, ../compass/sass/_hovereffect.scss */
+/* line 65, ../compass/sass/_hovereffect.scss */
 .hovereffect h2:after {
   position: absolute;
   bottom: 0;
@@ -428,7 +440,7 @@ a.title-link:hover {
   text-decoration: none;
 }
 
-/* line 313, ../compass/sass/_hovereffect.scss */
+/* line 80, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover h2:after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -436,7 +448,7 @@ a.title-link:hover {
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 320, ../compass/sass/_hovereffect.scss */
+/* line 87, ../compass/sass/_hovereffect.scss */
 .hovereffect a, .hovereffect p {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
@@ -448,7 +460,7 @@ a.title-link:hover {
   transform: translate3d(100%, 0, 0);
 }
 
-/* line 331, ../compass/sass/_hovereffect.scss */
+/* line 98, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover a, .hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
@@ -456,7 +468,7 @@ a.title-link:hover {
   transform: translate3d(0, 0, 0);
 }
 
-/* line 338, ../compass/sass/_hovereffect.scss */
-img .right-corner {
-  border-radius: 10%;
+/* line 105, ../compass/sass/_hovereffect.scss */
+.right-corner {
+  border-radius: 0 10px 0 0;
 }

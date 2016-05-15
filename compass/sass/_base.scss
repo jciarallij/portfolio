@@ -121,10 +121,6 @@ footer .container {
 }
 
 .navbar-inverse {
-    // background-color: black;
-    // // background: $nav-tex;
-    // // background-size: 100%;
-    // border-color: transparent;
     min-height: 85px;
     padding: 0px;
     margin-bottom: 0px;
@@ -163,7 +159,7 @@ footer .container {
 }
 
 .about {
-    // border-top: 2px solid black;
+    border-top: 2px solid black;
     border-bottom: 1px solid black;
     background-color: gray;
     background: $book-tex;
@@ -173,17 +169,10 @@ footer .container {
 
 .carousel-wrapper {
     padding: 0px;
+    min-height: 850px;
+    background-color: lightgray;
 }
 
-#caption-wrapper {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    width: 100%;
-    height: 80px;
-    background-color: lightgray;
-    background: $book-tex;
-    background-size: 100% 100%;
-}
 
 /*Carousel*/
 
@@ -205,21 +194,33 @@ footer .container {
 }
 
 .carousel-caption {
-    position: absolute;
-    z-index: 500;
-    top: 4%;
-    margin-top: -120px;
     font-size: 14px;
     color: #fff;
     text-transform: none;
-    text-shadow: 2px 2px 3px #666666;
-    color: black;
+    text-shadow: 0 2px 3px black, 0 -1px 2px black;
+    
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: -16px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
 }
 
 .carousel-caption h1 {
     font-size: 36px;
     line-height: 36px;
     color: #fff;
+    text-transform: uppercase;
+    color: gray;
+    text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
 .carousel-caption p {
@@ -242,31 +243,39 @@ footer .container {
     background: none;
     opacity: 1;
     position: absolute;
-    top: 50%;
+    top: 0px;
     margin-top: -35px;
     -moz-opacity: 1;
 }
 
 .carousel-control .carousel-control-left {
-    background: url('../img/linkedin.png') no-repeat;
+    background: url('../img/arrowleft.png') no-repeat;
     width: 70px;
     height: 71px;
-    left: 20px;
+    left: 10px;
+    top: 50%;
+    position: absolute;
 }
 
 .carousel-control .carousel-control-right {
-    background: url('../img/linkedin.png') no-repeat;
+    background: url('../img/arrowright.png') no-repeat;
     width: 70px;
     height: 71px;
-    right: 20px;
+    right: -20px;
+    top: 50%;
+    position: absolute;
 }
 
 .carousel-control .carousel-control-left:hover {
-    background: url('../img/linkedin.png') no-repeat;
+    background: url('../img/arrowlefttwo.png') no-repeat;
 }
 
 .carousel-control .carousel-control-right:hover {
-    background: url('../img/linkedin.png') no-repeat;
+    background: url('../img/arrowrighttwo.png') no-repeat;
+}
+
+.carousel-control.right, .carousel-control.left {
+    top: 36px;
 }
 
 .boxed .carousel-control .carousel-control-left {
@@ -280,7 +289,7 @@ footer .container {
 }
 
 .boxed .carousel-caption {
-    top: 90px;
+    top: 120px;
 }
 
 .boxess {
