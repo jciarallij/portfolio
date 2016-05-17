@@ -13,12 +13,13 @@ body {
 @font-face { font-family: Echanted; src: url('../fonts/Enchanted-Land.otf');}
 
 h3 {
-    font-family: Livingst;
+    font-family: Echanted;
+    font-size: 35px;
 }
 
 .section-title {
-    font-family: Livingst;
-    font-size: 40px;
+    font-family: Echanted;
+    font-size: 50px;
     color: black;
     float: left;
 }
@@ -162,9 +163,13 @@ footer .container-fluid {
 }
 
 .section-title-contact {
-    font-family: Livingst;
-    font-size: 40px;
+    font-family: Echanted;
+    font-size: 50px;
     color: black;
+
+
+
+
 }
 
 #skills-wrapper {

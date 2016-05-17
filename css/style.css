@@ -25,78 +25,79 @@ body {
 }
 /* line 15, ../compass/sass/_base.scss */
 h3 {
-  font-family: Livingst;
+  font-family: Echanted;
+  font-size: 35px;
 }
 
-/* line 19, ../compass/sass/_base.scss */
+/* line 20, ../compass/sass/_base.scss */
 .section-title {
-  font-family: Livingst;
-  font-size: 40px;
+  font-family: Echanted;
+  font-size: 50px;
   color: black;
   float: left;
 }
 
-/* line 26, ../compass/sass/_base.scss */
+/* line 27, ../compass/sass/_base.scss */
 .wax-icon {
   background: none;
 }
 
-/* line 30, ../compass/sass/_base.scss */
+/* line 31, ../compass/sass/_base.scss */
 .my-projects {
   padding: 5px;
 }
 
-/* line 38, ../compass/sass/_base.scss */
+/* line 39, ../compass/sass/_base.scss */
 .hover-text:hover {
   display: block;
   width: 50px;
   color: white;
 }
 
-/* line 44, ../compass/sass/_base.scss */
+/* line 45, ../compass/sass/_base.scss */
 .hover-text {
   display: none;
 }
 
-/* line 50, ../compass/sass/_base.scss */
+/* line 51, ../compass/sass/_base.scss */
 .item img {
   width: 100%;
   height: 300px;
 }
 
-/* line 56, ../compass/sass/_base.scss */
+/* line 57, ../compass/sass/_base.scss */
 .fa {
   margin-right: 5px;
 }
 
-/* line 60, ../compass/sass/_base.scss */
+/* line 61, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
-/* line 62, ../compass/sass/_base.scss */
+/* line 63, ../compass/sass/_base.scss */
 .project-img img {
   width: 100%;
 }
 
-/* line 67, ../compass/sass/_base.scss */
+/* line 68, ../compass/sass/_base.scss */
 .navbar-nav > li > a {
   padding-top: 30px;
   padding-bottom: 15px;
 }
 
-/* line 72, ../compass/sass/_base.scss */
+/* line 73, ../compass/sass/_base.scss */
 .big-letter {
   font-family: "Kelly", sans-serif;
   font-size: 60px;
 }
 
-/* line 77, ../compass/sass/_base.scss */
+/* line 78, ../compass/sass/_base.scss */
 .small-letter {
   font-family: "Kelly", sans-serif;
   font-size: 30px;
 }
 
-/* line 82, ../compass/sass/_base.scss */
+/* line 83, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -106,22 +107,22 @@ h3 {
   margin: auto;
 }
 
-/* line 91, ../compass/sass/_base.scss */
+/* line 92, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 96, ../compass/sass/_base.scss */
+/* line 97, ../compass/sass/_base.scss */
 body {
   background-color: white;
 }
 
-/* line 101, ../compass/sass/_base.scss */
+/* line 102, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 105, ../compass/sass/_base.scss */
+/* line 106, ../compass/sass/_base.scss */
 footer .container-fluid {
   border-bottom: 2px solid black;
   min-height: 300px;
@@ -130,7 +131,7 @@ footer .container-fluid {
   background-size: 100% 100%;
 }
 
-/* line 114, ../compass/sass/_base.scss */
+/* line 115, ../compass/sass/_base.scss */
 .crystal img {
   width: 40px;
   height: 70px;
@@ -139,7 +140,7 @@ footer .container-fluid {
   margin-top: 10px;
 }
 
-/* line 122, ../compass/sass/_base.scss */
+/* line 123, ../compass/sass/_base.scss */
 .crystal-two {
   width: 40px;
   height: 70px;
@@ -148,22 +149,22 @@ footer .container-fluid {
   margin-top: 10px;
 }
 
-/* line 130, ../compass/sass/_base.scss */
+/* line 131, ../compass/sass/_base.scss */
 .content-text {
   clear: both;
 }
 
-/* line 134, ../compass/sass/_base.scss */
+/* line 135, ../compass/sass/_base.scss */
 .my-nav {
   padding: 0px;
 }
 
-/* line 138, ../compass/sass/_base.scss */
+/* line 139, ../compass/sass/_base.scss */
 .my-nav-two {
   width: 400px;
 }
 
-/* line 142, ../compass/sass/_base.scss */
+/* line 143, ../compass/sass/_base.scss */
 .navbar-inverse {
   min-height: 85px;
   padding: 0px;
@@ -171,26 +172,26 @@ footer .container-fluid {
   border-radius: 0px;
 }
 
-/* line 149, ../compass/sass/_base.scss */
+/* line 150, ../compass/sass/_base.scss */
 .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
 }
-/* line 153, ../compass/sass/_base.scss */
+/* line 154, ../compass/sass/_base.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: lightgray;
   text-shadow: none;
 }
 
-/* line 164, ../compass/sass/_base.scss */
+/* line 165, ../compass/sass/_base.scss */
 .section-title-contact {
-  font-family: Livingst;
-  font-size: 40px;
+  font-family: Echanted;
+  font-size: 50px;
   color: black;
 }
 
-/* line 170, ../compass/sass/_base.scss */
+/* line 175, ../compass/sass/_base.scss */
 #skills-wrapper {
   border-top: 1px solid black;
   border-bottom: 2px solid black;
@@ -200,7 +201,7 @@ footer .container-fluid {
   min-height: 355px;
 }
 
-/* line 179, ../compass/sass/_base.scss */
+/* line 184, ../compass/sass/_base.scss */
 .projects {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -209,7 +210,7 @@ footer .container-fluid {
   background-size: 100% 100%;
 }
 
-/* line 188, ../compass/sass/_base.scss */
+/* line 193, ../compass/sass/_base.scss */
 .about {
   border-top: 2px solid black;
   border-bottom: 1px solid black;
@@ -219,7 +220,7 @@ footer .container-fluid {
   min-height: 400px;
 }
 
-/* line 197, ../compass/sass/_base.scss */
+/* line 202, ../compass/sass/_base.scss */
 .carousel-wrapper {
   padding: 0px;
   min-height: 450px;
@@ -227,13 +228,13 @@ footer .container-fluid {
 }
 
 /*Carousel*/
-/* line 206, ../compass/sass/_base.scss */
+/* line 211, ../compass/sass/_base.scss */
 .slider {
   position: relative;
   z-index: 9;
 }
 
-/* line 211, ../compass/sass/_base.scss */
+/* line 216, ../compass/sass/_base.scss */
 .absolute__img {
   position: absolute;
   bottom: -10px;
@@ -242,12 +243,12 @@ footer .container-fluid {
   z-index: 99;
 }
 
-/* line 219, ../compass/sass/_base.scss */
+/* line 224, ../compass/sass/_base.scss */
 .slider .btn {
   margin: 40px 10px 0;
 }
 
-/* line 223, ../compass/sass/_base.scss */
+/* line 228, ../compass/sass/_base.scss */
 .carousel-caption {
   font-size: 14px;
   color: #fff;
@@ -255,7 +256,7 @@ footer .container-fluid {
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 232, ../compass/sass/_base.scss */
+/* line 237, ../compass/sass/_base.scss */
 .carousel-caption {
   position: absolute;
   right: 15%;
@@ -268,7 +269,7 @@ footer .container-fluid {
   text-align: center;
 }
 
-/* line 244, ../compass/sass/_base.scss */
+/* line 249, ../compass/sass/_base.scss */
 .carousel-caption h1 {
   font-size: 36px;
   line-height: 36px;
@@ -278,13 +279,13 @@ footer .container-fluid {
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 253, ../compass/sass/_base.scss */
+/* line 258, ../compass/sass/_base.scss */
 .carousel-caption p {
   font-weight: 300;
   margin: 0;
 }
 
-/* line 258, ../compass/sass/_base.scss */
+/* line 263, ../compass/sass/_base.scss */
 .carousel-caption h1 span {
   color: #ffdd3c;
   border: 2px solid #fff;
@@ -296,7 +297,7 @@ footer .container-fluid {
   -o-border-radius: 4px;
 }
 
-/* line 269, ../compass/sass/_base.scss */
+/* line 274, ../compass/sass/_base.scss */
 .carousel-control {
   background: none;
   opacity: 1;
@@ -306,7 +307,7 @@ footer .container-fluid {
   -moz-opacity: 1;
 }
 
-/* line 278, ../compass/sass/_base.scss */
+/* line 283, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-left {
   width: 70px;
   height: 71px;
@@ -315,7 +316,7 @@ footer .container-fluid {
   position: absolute;
 }
 
-/* line 287, ../compass/sass/_base.scss */
+/* line 292, ../compass/sass/_base.scss */
 .carousel-control .carousel-control-right {
   width: 70px;
   height: 71px;
@@ -324,53 +325,53 @@ footer .container-fluid {
   position: absolute;
 }
 
-/* line 304, ../compass/sass/_base.scss */
+/* line 309, ../compass/sass/_base.scss */
 .carousel-control.right, .carousel-control.left {
   top: 36px;
 }
 
-/* line 308, ../compass/sass/_base.scss */
+/* line 313, ../compass/sass/_base.scss */
 .boxed .carousel-control .carousel-control-left {
   left: -150px;
   top: 270px;
 }
 
-/* line 313, ../compass/sass/_base.scss */
+/* line 318, ../compass/sass/_base.scss */
 .boxed .carousel-control .carousel-control-right {
   right: -150px;
   top: 270px;
 }
 
-/* line 318, ../compass/sass/_base.scss */
+/* line 323, ../compass/sass/_base.scss */
 .boxed .carousel-caption {
   top: 120px;
 }
 
-/* line 322, ../compass/sass/_base.scss */
+/* line 327, ../compass/sass/_base.scss */
 .boxess {
   background-color: #fff;
 }
 
-/* line 326, ../compass/sass/_base.scss */
+/* line 331, ../compass/sass/_base.scss */
 .boxess .carousel-caption h1 {
   font-size: 40px;
   line-height: 40px;
 }
 
-/* line 331, ../compass/sass/_base.scss */
+/* line 336, ../compass/sass/_base.scss */
 .row {
   margin-right: 0px;
   margin-left: 0px;
 }
 
 /*/* Main Content*/
-/* line 338, ../compass/sass/_base.scss */
+/* line 343, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;
 }
 
-/* line 344, ../compass/sass/_base.scss */
+/* line 349, ../compass/sass/_base.scss */
 #scroll-nav {
   position: fixed;
   top: 0px;
@@ -385,12 +386,12 @@ footer .container-fluid {
   right: 0;
   margin: auto;
 }
-/* line 358, ../compass/sass/_base.scss */
+/* line 363, ../compass/sass/_base.scss */
 #scroll-nav .navbar-inverse {
   min-height: 50px;
   border-radius: 0 0 15px 15px;
 }
-/* line 364, ../compass/sass/_base.scss */
+/* line 369, ../compass/sass/_base.scss */
 #scroll-nav .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
