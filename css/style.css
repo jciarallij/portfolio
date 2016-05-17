@@ -31,8 +31,8 @@ h3 {
 
 /* line 20, ../compass/sass/_base.scss */
 .section-title {
-  font-family: Echanted;
-  font-size: 50px;
+  font-family: Kelly;
+  font-size: 30px;
   color: black;
   float: left;
 }
@@ -186,8 +186,8 @@ footer .container-fluid {
 
 /* line 165, ../compass/sass/_base.scss */
 .section-title-contact {
-  font-family: Echanted;
-  font-size: 50px;
+  font-family: Kelly;
+  font-size: 30px;
   color: black;
 }
 
