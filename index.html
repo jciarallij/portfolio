@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,700,600|Montserrat:400,700">
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script type="text/javascript" src="js/angular-route.min.js"></script>
@@ -22,7 +23,10 @@
 </head>
 
 <body id="top" ng-controller="mainController">
-    <div class="container-fluid my-nav">
+<!--     <div class="container custom-nav">
+        <img src="img/topscroll.png" alt="">
+    </div> -->
+    <div class="container my-nav">
         <nav class="navbar navbar-inverse">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -61,6 +65,21 @@
     </div>
     <!--  -->
     <div ng-view></div>
+    <div class="container">
+        <div id="my-footer" class="row text-center">
+            <p class="text-center footer-text"> Joshua Ciaralli | All Rights Reserved | &copy; Copyright 2016</p>
+        </div>
+    </div>
+<!--     <div class="container custom-footer">
+        <img src="img/bottomscroll.png" alt="">
+    </div> -->
 </body>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript">
+$('.carousel').carousel({
+    interval: 2500, // in milliseconds
+    pause: 'false' // set to 'true' to pause slider on mouse hover
+})
+</script>
 
 </html>

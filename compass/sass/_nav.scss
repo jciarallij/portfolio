@@ -1,0 +1,88 @@
+
+// Main index.html Navbar
+
+
+// .custom-nav {
+//     img {
+//         width: 89%;
+//         height: 100px;
+//         float: left;
+//         position: absolute;
+//         top: 0;
+//         left: 5%;
+//         z-index: 500;
+
+//     }
+// }
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.my-nav {
+    padding: 0px;
+}
+
+.my-nav-two {
+    width: 400px;
+}
+
+.navbar-inverse {
+    min-height: 50px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-transform: uppercase;
+    color: #ffd700;
+    // color: black;
+    text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 510;
+    &:hover {
+        color: lightgray;
+        text-shadow: none;
+    }
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle {
+    z-index: 510;
+}
+
+// Secondary Navbar that appears from scrolling down the page.
+// For my scrolling navbar that appears after scrolling so far.
+
+#scroll-nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 85px;
+    background-color: none;
+    color: #FFFFFF;
+    z-index: 9999;
+    display: none;
+    left: 0;
+    width: 480px;
+    right: 0;
+    margin: auto;
+    .navbar-inverse {
+        min-height: 50px;
+        border-radius: 0 0 15px 15px;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        text-transform: uppercase;
+        color: #ffd700;
+        text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
+        font-size: 12px;
+        float: left;
+        padding-top: 0px;
+        margin-top: 15px;
+    }
+}
