@@ -1,4 +1,20 @@
-/* line 10, ../compass/sass/_base.scss */
+/* line 9, ../compass/sass/_base.scss */
+p {
+  text-indent: 25px;
+}
+
+/* line 13, ../compass/sass/_base.scss */
+p.no-indent {
+  text-indent: 0px;
+}
+
+/* line 17, ../compass/sass/_base.scss */
+.project-titles {
+  color: #ffd700;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
+}
+
+/* line 22, ../compass/sass/_base.scss */
 body {
   background: url("../img/main-background.png");
   background-size: cover;
@@ -6,7 +22,7 @@ body {
   background-position: center;
 }
 
-/* line 17, ../compass/sass/_base.scss */
+/* line 29, ../compass/sass/_base.scss */
 .section-title {
   font-family: Kelly;
   font-size: 30px;
@@ -14,65 +30,65 @@ body {
   float: left;
 }
 
-/* line 24, ../compass/sass/_base.scss */
+/* line 36, ../compass/sass/_base.scss */
 .content-text {
   clear: both;
 }
 
-/* line 28, ../compass/sass/_base.scss */
+/* line 40, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;
 }
 
-/* line 35, ../compass/sass/_base.scss */
+/* line 46, ../compass/sass/_base.scss */
 .about {
   min-height: 600px;
 }
 
-/* line 41, ../compass/sass/_base.scss */
+/* line 51, ../compass/sass/_base.scss */
 .my-projects {
   padding: 5px;
 }
 
-/* line 45, ../compass/sass/_base.scss */
+/* line 55, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
 
-/* line 49, ../compass/sass/_base.scss */
+/* line 59, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 53, ../compass/sass/_base.scss */
+/* line 63, ../compass/sass/_base.scss */
 .project-title {
   margin-bottom: 100px;
 }
 
-/* line 59, ../compass/sass/_base.scss */
+/* line 68, ../compass/sass/_base.scss */
 .wax-icon {
   background: none;
 }
 
-/* line 63, ../compass/sass/_base.scss */
+/* line 72, ../compass/sass/_base.scss */
 #contact-section {
   min-height: 600px;
 }
 
-/* line 67, ../compass/sass/_base.scss */
+/* line 76, ../compass/sass/_base.scss */
 .section-title-contact {
   font-family: Kelly;
   font-size: 30px;
   color: black;
 }
 
-/* line 74, ../compass/sass/_base.scss */
+/* line 83, ../compass/sass/_base.scss */
 #skills-wrapper {
   min-height: 600px;
 }
 
-/* line 80, ../compass/sass/_base.scss */
+/* line 88, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -84,12 +100,12 @@ body {
   bottom: 0;
 }
 
-/* line 91, ../compass/sass/_base.scss */
+/* line 99, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 96, ../compass/sass/_base.scss */
+/* line 104, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
@@ -159,31 +175,30 @@ p.footer-text {
 }
 
 /* line 58, ../compass/sass/_hovereffect.scss */
-.hovereffect h2 {
-  text-transform: uppercase;
+.hovereffect h4 {
   color: transparent;
   text-shadow: none;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 16px;
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
 }
 
-/* line 70, ../compass/sass/_hovereffect.scss */
-.hovereffect:hover h2 {
+/* line 74, ../compass/sass/_hovereffect.scss */
+.hovereffect:hover h4 {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 75, ../compass/sass/_hovereffect.scss */
+/* line 79, ../compass/sass/_hovereffect.scss */
 a.title-link:hover {
   text-decoration: none;
 }
 
-/* line 79, ../compass/sass/_hovereffect.scss */
-.hovereffect h2:after {
+/* line 83, ../compass/sass/_hovereffect.scss */
+.hovereffect h4:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -198,15 +213,15 @@ a.title-link:hover {
   text-decoration: none;
 }
 
-/* line 94, ../compass/sass/_hovereffect.scss */
-.hovereffect:hover h2:after {
+/* line 98, ../compass/sass/_hovereffect.scss */
+.hovereffect:hover h4:after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 101, ../compass/sass/_hovereffect.scss */
+/* line 105, ../compass/sass/_hovereffect.scss */
 .hovereffect a, .hovereffect p {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
@@ -216,14 +231,16 @@ a.title-link:hover {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
+  text-indent: 0px;
 }
 
-/* line 112, ../compass/sass/_hovereffect.scss */
+/* line 117, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover a, .hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  text-indent: 0px;
 }
 
 /* line 18, ../compass/sass/_nav.scss */

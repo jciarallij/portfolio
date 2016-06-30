@@ -1,10 +1,22 @@
 // Full page body styles
-
 #scroll-wrapper {
     // background: url("../img/Background.png");
     // background-size: cover;
     // background-attachment: fixed;
     // background-position: center;
+}
+
+p {
+    text-indent: 25px;
+}
+
+p.no-indent {
+    text-indent: 0px;
+}
+
+.project-titles {
+    color: #ffd700;
+    text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
 body {
@@ -31,13 +43,11 @@ body {
 }
 
 // About Section
-
 .about {
     min-height: 600px;
 }
 
 // Projects Section
-
 .my-projects {
     padding: 5px;
 }
@@ -55,7 +65,6 @@ body {
 }
 
 // Contact Section
-
 .wax-icon {
     background: none;
 }
@@ -69,14 +78,13 @@ body {
     font-size: 30px;
     color: black;
 }
-// Skills Section
 
+// Skills Section
 #skills-wrapper {
     min-height: 600px;
 }
 
 // Footer 
-
 #my-footer {
     background-color: #222;
     border-color: #080808;
@@ -101,15 +109,5 @@ p.footer-text {
         bottom: 0;
         left: 5%;
         z-index: 500;
-
     }
 }
-
-
-
-
-
-
-
-
-

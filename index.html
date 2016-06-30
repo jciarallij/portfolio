@@ -2,9 +2,11 @@
 <html ng-app="portfolioApp">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="Joshua Ciaralli" content="">
     <title>Joshua Ciaralli Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
@@ -23,7 +25,7 @@
 </head>
 
 <body id="top" ng-controller="mainController">
-<!--     <div class="container custom-nav">
+    <!--     <div class="container custom-nav">
         <img src="img/topscroll.png" alt="">
     </div> -->
     <div class="container my-nav">
@@ -44,25 +46,25 @@
                         <li><a href="#my-projects-section"><span class="fa fa-file-code-o"></span> Projects</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right" ng-cloak>
-                        <li><a href="#skills-wrapper"><span class="fa fa-envelope"></span> Contact</a></li>
-                        <li><a href="#/resume"><span class="fa fa-file-text-o"></span> Resume</a></li>
+                        <li><a href="#contact-section"><span class="fa fa-envelope"></span> Contact</a></li>
+                        <li><a href="Joshua_Ciaralli.pdf" target="_blank"><span class="fa fa-file-text-o"></span> Resume</a></li>
                     </ul>
                 </div>
         </nav>
         </div>
     </div>
-    <div id="scroll-nav" class="my-nav-two text-center">
+    <!--     <div id="scroll-nav" class="my-nav-two text-center">
         <nav class="navbar navbar-inverse">
             <div class="col-sm-12 text-center">
                 <ul class="nav navbar-nav">
                     <li><a href="#about"><span class="fa fa-user"></span> About</a></li>
                     <li><a href="#my-projects-section"><span class="fa fa-file-code-o"></span> Projects</a></li>
-                    <li><a href="#skills-wrapper"><span class="fa fa-envelope"></span> Contact</a></li>
+                    <li><a href="#contact-section"><span class="fa fa-envelope"></span> Contact</a></li>
                     <li><a href="#top"><span class="fa fa-arrow-up"></span> Top</a></li>
                 </ul>
             </div>
         </nav>
-    </div>
+    </div> -->
     <!--  -->
     <div ng-view></div>
     <div class="container">
@@ -70,7 +72,7 @@
             <p class="text-center footer-text"> Joshua Ciaralli | All Rights Reserved | &copy; Copyright 2016</p>
         </div>
     </div>
-<!--     <div class="container custom-footer">
+    <!--     <div class="container custom-footer">
         <img src="img/bottomscroll.png" alt="">
     </div> -->
 </body>

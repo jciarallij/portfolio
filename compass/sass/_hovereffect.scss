@@ -55,19 +55,23 @@
   transform: translate3d(0,0,0);
 }
 
-.hovereffect h2 {
-  text-transform: uppercase;
+.hovereffect h4 {
+  // text-transform: uppercase;
   color: transparent;
   text-shadow: none;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 16px;
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
 }
 
-.hovereffect:hover h2{
+// .hovereffect p {
+//   text-align: center;
+// }
+
+.hovereffect:hover h4{
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
@@ -76,7 +80,7 @@ a.title-link:hover {
   text-decoration: none;
 }
 
-.hovereffect h2:after {
+.hovereffect h4:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -91,7 +95,7 @@ a.title-link:hover {
   text-decoration: none;
 }
 
-.hovereffect:hover h2:after {
+.hovereffect:hover h4:after {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
   color: #ffd700;
@@ -107,6 +111,7 @@ a.title-link:hover {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(100%,0,0);
   transform: translate3d(100%,0,0);
+  text-indent: 0px;
 }
 
 .hovereffect:hover a, .hovereffect:hover p {
@@ -114,4 +119,5 @@ a.title-link:hover {
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+  text-indent: 0px;
 }
