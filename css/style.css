@@ -44,51 +44,67 @@ body {
 /* line 46, ../compass/sass/_base.scss */
 .about {
   min-height: 600px;
+  margin-bottom: 100px;
 }
 
-/* line 51, ../compass/sass/_base.scss */
+/* line 52, ../compass/sass/_base.scss */
 .my-projects {
   padding: 5px;
 }
 
-/* line 55, ../compass/sass/_base.scss */
+/* line 56, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
 
-/* line 59, ../compass/sass/_base.scss */
+/* line 60, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 63, ../compass/sass/_base.scss */
+/* line 64, ../compass/sass/_base.scss */
 .project-title {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
-/* line 68, ../compass/sass/_base.scss */
+/* line 70, ../compass/sass/_base.scss */
 .wax-icon {
   background: none;
 }
 
-/* line 72, ../compass/sass/_base.scss */
+/* line 74, ../compass/sass/_base.scss */
 #contact-section {
   min-height: 600px;
 }
 
-/* line 76, ../compass/sass/_base.scss */
+/* line 78, ../compass/sass/_base.scss */
 .section-title-contact {
   font-family: Kelly;
   font-size: 30px;
   color: black;
 }
 
-/* line 83, ../compass/sass/_base.scss */
+/* line 85, ../compass/sass/_base.scss */
 #skills-wrapper {
   min-height: 600px;
 }
 
-/* line 88, ../compass/sass/_base.scss */
+/* line 89, ../compass/sass/_base.scss */
+.skills-title {
+  margin-top: 100px;
+}
+
+/* line 93, ../compass/sass/_base.scss */
+.about-title {
+  margin-top: 100px;
+}
+
+/* line 98, ../compass/sass/_base.scss */
+#information p {
+  text-indent: 0px;
+}
+
+/* line 104, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -100,12 +116,12 @@ body {
   bottom: 0;
 }
 
-/* line 99, ../compass/sass/_base.scss */
+/* line 115, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 104, ../compass/sass/_base.scss */
+/* line 120, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
