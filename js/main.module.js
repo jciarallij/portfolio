@@ -40,13 +40,13 @@ portfolioApp.controller('mainController', function($scope, $http, $routeParams, 
     $scope.header = "test";
     $scope.changeHeader = function(name) {
         $scope.header = name;
-    }
+    };
 
 
     $scope.nextId = function(id) {
         console.log(id);
         $location.path("#/" + id);
-    }
+    };
     // var url = 'http://www.digitalcrafts.com/students/twitter/hashtag.php?user=true&hash=lolesports&secondHash=';
     var url = 'http://www.digitalcrafts.com/students/twitter/hashtag.php?user=true&hash=jciarallij&secondHash=';
     $http.get(url).success(function(data) {
@@ -91,13 +91,31 @@ portfolioApp.controller('mainController', function($scope, $http, $routeParams, 
                     timeStamp = " seconds ";
                 }
                 $scope.data[i].sinceTweeted = Math.floor(currentTime - tweetTime) + timeStamp + "ago";
-            };
+            }
 
         }, 1000);
 
 
 
     });
+
+    $http({
+     method: "post",
+     url: "mail.php",
+     dataType: 'json',
+     data: {name: "Josh", 
+            emailAddr: "josh@ticketfixme.com", 
+            emailSubject: "Have a great job for you.",
+            emailBody: "Pays big bucks!  Call ASAP."
+          }
+    
+   }).then(
+   function (success){
+       console.log(success);
+   }, 
+   function(error){
+     console.log(error);
+   });
 
 });
 
