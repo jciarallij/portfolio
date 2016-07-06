@@ -20,8 +20,7 @@ var apiUrl = 'http://localhost:4000';
 
 portfolioApp.config(function($routeProvider) {
     $routeProvider.when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'mainController'
+        templateUrl: 'views/main.html'
     }).otherwise({
         redirectTo: '/'
     });
@@ -115,6 +114,10 @@ portfolioApp.controller('mainController', function($scope, $http, $routeParams, 
         }).then(
             function(success) {
                 console.log(success);
+                $scope.emailAddr = "";
+                $scope.emailBody = "";
+                $scope.emailSubject = "";
+                $scope.name = "";
             },
             function(error) {
                 console.log(error);
