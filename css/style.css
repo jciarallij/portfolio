@@ -104,17 +104,45 @@ body {
   text-indent: 0px;
 }
 
-/* line 104, ../compass/sass/_base.scss */
+/* line 105, ../compass/sass/_base.scss */
+.my-nav li {
+  width: 120px;
+  height: 180px;
+  padding-top: 15px;
+  position: relative;
+  background: url("../img/newbookmark.png");
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 20px;
+  transition-property: background;
+  transition-duration: .5s;
+  transition-timing-function: linear;
+}
+/* line 120, ../compass/sass/_base.scss */
+.my-nav li .fa {
+  font-size: 30px;
+  padding-top: 3px;
+  padding-left: 8px;
+}
+/* line 126, ../compass/sass/_base.scss */
+.my-nav li:hover {
+  background: url("../img/newbookmarkanimate.png");
+}
+
+/* line 133, ../compass/sass/_base.scss */
 .message-wrapper .row {
   margin: 0px;
 }
 
-/* line 109, ../compass/sass/_base.scss */
+/* line 138, ../compass/sass/_base.scss */
 .message-wrapper.row {
   margin: 0px;
 }
 
-/* line 114, ../compass/sass/_base.scss */
+/* line 143, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -126,12 +154,12 @@ body {
   bottom: 0;
 }
 
-/* line 125, ../compass/sass/_base.scss */
+/* line 154, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 130, ../compass/sass/_base.scss */
+/* line 159, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
@@ -292,32 +320,33 @@ a.title-link:hover {
   margin-bottom: 0px;
   border-radius: 0px;
   border: none;
+  background-color: transparent;
 }
 
-/* line 39, ../compass/sass/_nav.scss */
+/* line 40, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
   z-index: 510;
 }
-/* line 45, ../compass/sass/_nav.scss */
+/* line 46, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: lightgray;
   text-shadow: none;
 }
 
-/* line 51, ../compass/sass/_nav.scss */
+/* line 52, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: black;
 }
 
-/* line 55, ../compass/sass/_nav.scss */
+/* line 56, ../compass/sass/_nav.scss */
 .navbar-toggle {
   z-index: 510;
 }
 
-/* line 62, ../compass/sass/_nav.scss */
+/* line 63, ../compass/sass/_nav.scss */
 #scroll-nav {
   position: fixed;
   top: 0px;
@@ -332,12 +361,12 @@ a.title-link:hover {
   right: 0;
   margin: auto;
 }
-/* line 75, ../compass/sass/_nav.scss */
+/* line 76, ../compass/sass/_nav.scss */
 #scroll-nav .navbar-inverse {
   min-height: 50px;
   border-radius: 0 0 15px 15px;
 }
-/* line 79, ../compass/sass/_nav.scss */
+/* line 80, ../compass/sass/_nav.scss */
 #scroll-nav .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
