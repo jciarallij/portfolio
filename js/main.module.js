@@ -1,4 +1,4 @@
-var portfolioApp = angular.module('portfolioApp', ['ngRoute', 'ngCookies', 'ngAnimate']);
+var portfolioApp = angular.module('portfolioApp', ['ngRoute', 'ngAnimate']);
 
 portfolioApp.directive('checkImage', function($http) {
     return {
@@ -29,9 +29,13 @@ portfolioApp.config(function($routeProvider) {
 
 portfolioApp.controller('mainController', function($scope, $http, $routeParams, $interval, $location) {
 
+    console.log("Controller Loaded");
+    $scope.name = "";
+
 
     $scope.emailFunc = function() {
         console.log($scope.name);
+        console.log($scope.contact);
         $http({
             method: "post",
             url: "mail.php",

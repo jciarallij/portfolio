@@ -1,4 +1,4 @@
-<div id="scroll-wrapper" class="container">
+<div id="scroll-wrapper" class="container" ng-controller="mainController">
     <div id="about" class="row text-left no-margin about">
         <div class="container headings crystal">
             <h1 class="section-title about-title"><span class="big-letter">A</span>bout Me</h1>
@@ -117,41 +117,6 @@
                     <h3 class="project-titles">Digital Roast</h3>
                 </div>
             </div>
-            <!--             <div class="row btm-row">
-                <div class="col-md-4 my-projects">
-                    <div class="hovereffect">
-                        <img class="img-responsive project-img" src="img/comingsoon.jpg" alt="">
-                        <div class="overlay">
-                            <a class="title-link" href="/movie-app"><h4>Movie App</h2></a>
-                            <p>
-                                <a class="info" href="https://github.com/jciarallij/My-movie-app-2016"><span class="fa fa-github"></span> View Github Repo</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-projects">
-                    <div class="hovereffect">
-                        <img class="img-responsive project-img" src="img/comingsoon.jpg" alt="">
-                        <div class="overlay">
-                            <a class="title-link" href="#"><h2>Google Maps</h2></a>
-                            <p>
-                                <a class="info" href="#"><span class="fa fa-github"></span> View Github Repo</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-projects">
-                    <div class="hovereffect">
-                        <img class="img-responsive project-img right-corner-btm" src="img/comingsoon.jpg" alt="">
-                        <div class="overlay">
-                            <h2>Marvel Voting App</h2>
-                            <p>
-                                <a class="info" href="#"><span class="fa fa-github"></span> View Github Repo</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
     <div id="skills-wrapper" class="row text-left">
@@ -217,7 +182,7 @@
             <div class="col-md-3">
                 <h3>Message Me</h3>
                 <div class="row">
-                    <form ng-submit="emailFunc()" role="form" id="contact-form" name="contact">
+                    <form ng-submit="emailFunc()" role="form" id="contact-form" name="contact" novalidate>
                         <div class="form-group">
                             <label>Name</label>
                             <input type="text" name="name" ng-model="name" placeholder="Name" class="form-control shorten">
