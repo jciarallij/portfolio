@@ -217,22 +217,22 @@
             <div class="col-md-3">
                 <h3>Message Me</h3>
                 <div class="row">
-                    <form action="mail.php" method="post" data-toggle="validator" role="form" id="contact-form" name="contact">
+                    <form ng-submit="emailFunc()" role="form" id="contact-form" name="contact">
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="text" name="name" placeholder="Name" class="form-control shorten">
+                            <input type="text" name="name" ng-model="name" placeholder="Name" class="form-control shorten">
                         </div>
                         <div class="form-group">
                             <label>Email</label>
-                            <input type="email" name="emailAddr" placeholder="Email Address" class="form-control shorten">
+                            <input type="email" name="emailAddr" ng-model="emailAddr" placeholder="Email Address" class="form-control shorten">
                         </div>
                         <div class="form-group">
                             <label>Subject</label>
-                            <input type="text" name="emailSubject" placeholder="Email Subject" class="form-control shorten">
+                            <input type="text" name="emailSubject" ng-model="emailSubject" placeholder="Email Subject" class="form-control shorten">
                         </div>
                         <div class="form-group">
                             <label>Message</label>
-                            <textarea rows="4" name="emailBody" class="form-control"></textarea>
+                            <textarea rows="4" name="emailBody" ng-model="emailBody" class="form-control"></textarea>
                         </div>
                         <div class="button-holder">
                             <button type="submit" class="btn btn-default">Submit</button>

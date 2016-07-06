@@ -1,4 +1,4 @@
-var portfolioApp = angular.module('portfolioApp', ['ngRoute', 'ngCookies','ngAnimate']);
+var portfolioApp = angular.module('portfolioApp', ['ngRoute', 'ngCookies', 'ngAnimate']);
 
 portfolioApp.directive('checkImage', function($http) {
     return {
@@ -29,7 +29,7 @@ portfolioApp.config(function($routeProvider) {
 
 
 portfolioApp.controller('mainController', function($scope, $http, $routeParams, $interval, $location) {
-    
+
     console.log('this is the main controller.');
     var myTweets = '/build';
     if ('page' in $routeParams) {
@@ -99,38 +99,28 @@ portfolioApp.controller('mainController', function($scope, $http, $routeParams, 
 
     });
 
-    $http({
-     method: "post",
-     url: "mail.php",
-     dataType: 'json',
-     data: {name: "Josh", 
-            emailAddr: "josh@ticketfixme.com", 
-            emailSubject: "Have a great job for you.",
-            emailBody: "Pays big bucks!  Call ASAP."
-          }
-    
-   }).then(
-   function (success){
-       console.log(success);
-   }, 
-   function(error){
-     console.log(error);
-   });
+    $scope.emailFunc = function() {
+
+        $http({
+            method: "post",
+            url: "mail.php",
+            dataType: 'json',
+            data: {
+                name: $scope.name,
+                emailAddr: $scope.emailAddr,
+                emailSubject: $scope.emailSubject,
+                emailBody: $scope.emailBody
+            }
+
+        }).then(
+            function(success) {
+                console.log(success);
+            },
+            function(error) {
+                console.log(error);
+            });
+    };
+
+
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
