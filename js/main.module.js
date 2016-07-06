@@ -34,8 +34,6 @@ portfolioApp.controller('mainController', function($scope, $http, $routeParams, 
 
 
     $scope.emailFunc = function() {
-        console.log($scope.name);
-        console.log($scope.contact);
         $http({
             method: "post",
             url: "mail.php",

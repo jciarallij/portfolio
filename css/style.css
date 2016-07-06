@@ -105,6 +105,16 @@ body {
 }
 
 /* line 104, ../compass/sass/_base.scss */
+.message-wrapper .row {
+  margin: 0px;
+}
+
+/* line 109, ../compass/sass/_base.scss */
+.message-wrapper.row {
+  margin: 0px;
+}
+
+/* line 114, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -116,12 +126,12 @@ body {
   bottom: 0;
 }
 
-/* line 115, ../compass/sass/_base.scss */
+/* line 125, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 120, ../compass/sass/_base.scss */
+/* line 130, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
@@ -202,18 +212,18 @@ p.footer-text {
   background-color: transparent;
 }
 
-/* line 74, ../compass/sass/_hovereffect.scss */
+/* line 70, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover h4 {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 79, ../compass/sass/_hovereffect.scss */
+/* line 75, ../compass/sass/_hovereffect.scss */
 a.title-link:hover {
   text-decoration: none;
 }
 
-/* line 83, ../compass/sass/_hovereffect.scss */
+/* line 79, ../compass/sass/_hovereffect.scss */
 .hovereffect h4:after {
   position: absolute;
   bottom: 0;
@@ -229,7 +239,7 @@ a.title-link:hover {
   text-decoration: none;
 }
 
-/* line 98, ../compass/sass/_hovereffect.scss */
+/* line 94, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover h4:after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -237,7 +247,7 @@ a.title-link:hover {
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 105, ../compass/sass/_hovereffect.scss */
+/* line 101, ../compass/sass/_hovereffect.scss */
 .hovereffect a, .hovereffect p {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
@@ -250,7 +260,7 @@ a.title-link:hover {
   text-indent: 0px;
 }
 
-/* line 117, ../compass/sass/_hovereffect.scss */
+/* line 113, ../compass/sass/_hovereffect.scss */
 .hovereffect:hover a, .hovereffect:hover p {
   opacity: 1;
   filter: alpha(opacity=100);
