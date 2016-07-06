@@ -21,16 +21,22 @@ body {
     font-family: Echanted;
     src: url('../fonts/Enchanted-Land.otf');
 }
+
+@font-face {
+    font-family: Roth;
+    src: url('../fonts/rothenbg.ttf');
+}
+
 h3 {
     font-family: Echanted;
     font-size: 35px;
 }
 .big-letter {
-    font-family: "Kelly", sans-serif;
+    font-family: "Roth", sans-serif;
     font-size: 60px;
 }
 .small-letter {
-    font-family: "Kelly", sans-serif;
+    font-family: "Roth", sans-serif;
     font-size: 30px;
 }
 

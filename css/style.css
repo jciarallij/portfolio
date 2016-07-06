@@ -1,20 +1,20 @@
-/* line 9, ../compass/sass/_base.scss */
+/* line 6, ../compass/sass/_base.scss */
 p {
   text-indent: 25px;
 }
 
-/* line 13, ../compass/sass/_base.scss */
+/* line 10, ../compass/sass/_base.scss */
 p.no-indent {
   text-indent: 0px;
 }
 
-/* line 17, ../compass/sass/_base.scss */
+/* line 14, ../compass/sass/_base.scss */
 .project-titles {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 22, ../compass/sass/_base.scss */
+/* line 19, ../compass/sass/_base.scss */
 body {
   background: url("../img/main-background.jpg");
   background-size: cover;
@@ -22,97 +22,98 @@ body {
   background-position: center;
 }
 
-/* line 29, ../compass/sass/_base.scss */
+/* line 26, ../compass/sass/_base.scss */
 .section-title {
-  font-family: Kelly;
+  font-family: Roth;
   font-size: 30px;
   color: black;
   float: left;
 }
 
-/* line 36, ../compass/sass/_base.scss */
+/* line 33, ../compass/sass/_base.scss */
 .content-text {
   clear: both;
 }
 
-/* line 40, ../compass/sass/_base.scss */
+/* line 37, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;
 }
 
-/* line 46, ../compass/sass/_base.scss */
+/* line 43, ../compass/sass/_base.scss */
 .about {
   min-height: 600px;
   margin-bottom: 100px;
 }
 
-/* line 52, ../compass/sass/_base.scss */
+/* line 49, ../compass/sass/_base.scss */
 .my-projects {
   padding: 5px;
 }
 
-/* line 56, ../compass/sass/_base.scss */
+/* line 53, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
 
-/* line 60, ../compass/sass/_base.scss */
+/* line 57, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 64, ../compass/sass/_base.scss */
+/* line 61, ../compass/sass/_base.scss */
 .project-title {
   margin-bottom: 20px;
 }
 
-/* line 70, ../compass/sass/_base.scss */
+/* line 67, ../compass/sass/_base.scss */
 .wax-icon {
   background: none;
 }
 
-/* line 74, ../compass/sass/_base.scss */
+/* line 71, ../compass/sass/_base.scss */
 #contact-section {
   min-height: 600px;
 }
 
-/* line 78, ../compass/sass/_base.scss */
+/* line 75, ../compass/sass/_base.scss */
 .section-title-contact {
   font-family: Kelly;
   font-size: 30px;
   color: black;
 }
 
-/* line 85, ../compass/sass/_base.scss */
+/* line 82, ../compass/sass/_base.scss */
 #skills-wrapper {
   min-height: 600px;
 }
 
-/* line 89, ../compass/sass/_base.scss */
+/* line 86, ../compass/sass/_base.scss */
 .skills-title {
   margin-top: 100px;
 }
 
-/* line 93, ../compass/sass/_base.scss */
+/* line 90, ../compass/sass/_base.scss */
 .about-title {
   margin-top: 100px;
 }
 
-/* line 98, ../compass/sass/_base.scss */
+/* line 95, ../compass/sass/_base.scss */
 #information p {
   text-indent: 0px;
 }
 
 /* line 105, ../compass/sass/_base.scss */
-.my-nav li {
+.my-nav li.li-projects, .my-nav li.li-skills, .my-nav li.li-resume, .my-nav li.li-contact {
+  font-family: Echanted;
   width: 120px;
   height: 180px;
-  padding-top: 15px;
+  padding-top: 18px;
   position: relative;
   background: url("../img/newbookmark.png");
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
@@ -120,29 +121,55 @@ body {
   transition-property: background;
   transition-duration: .5s;
   transition-timing-function: linear;
+  text-shadow: 0 2px 3px black, 0 -1px 2px black;
+  color: white;
 }
-/* line 120, ../compass/sass/_base.scss */
-.my-nav li .fa {
-  font-size: 30px;
-  padding-top: 3px;
+/* line 123, ../compass/sass/_base.scss */
+.my-nav li.li-projects .fa, .my-nav li.li-skills .fa, .my-nav li.li-resume .fa, .my-nav li.li-contact .fa {
+  font-size: 35px;
+  padding-top: 6px;
   padding-left: 8px;
 }
-/* line 126, ../compass/sass/_base.scss */
+/* line 129, ../compass/sass/_base.scss */
 .my-nav li:hover {
   background: url("../img/newbookmarkanimate.png");
 }
+/* line 132, ../compass/sass/_base.scss */
+.my-nav li.li-skills {
+  background: url("../img/newbookmarkblue.png");
+}
+/* line 134, ../compass/sass/_base.scss */
+.my-nav li.li-skills:hover {
+  background: url("../img/newbookmarkblueanimate2.png");
+}
+/* line 140, ../compass/sass/_base.scss */
+.my-nav li.li-contact {
+  background: url("../img/newbookmarkgreen.png");
+}
+/* line 142, ../compass/sass/_base.scss */
+.my-nav li.li-contact:hover {
+  background: url("../img/newbookmarkgreenanimate.png");
+}
+/* line 147, ../compass/sass/_base.scss */
+.my-nav li.li-resume {
+  background: url("../img/newbookmarkred.png");
+}
+/* line 149, ../compass/sass/_base.scss */
+.my-nav li.li-resume:hover {
+  background: url("../img/newbookmarkredanimate.png");
+}
 
-/* line 133, ../compass/sass/_base.scss */
+/* line 159, ../compass/sass/_base.scss */
 .message-wrapper .row {
   margin: 0px;
 }
 
-/* line 138, ../compass/sass/_base.scss */
+/* line 164, ../compass/sass/_base.scss */
 .message-wrapper.row {
   margin: 0px;
 }
 
-/* line 143, ../compass/sass/_base.scss */
+/* line 169, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -154,12 +181,12 @@ body {
   bottom: 0;
 }
 
-/* line 154, ../compass/sass/_base.scss */
+/* line 180, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 159, ../compass/sass/_base.scss */
+/* line 185, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
@@ -297,23 +324,23 @@ a.title-link:hover {
   text-indent: 0px;
 }
 
-/* line 18, ../compass/sass/_nav.scss */
+/* line 5, ../compass/sass/_nav.scss */
 .navbar-nav > li > a {
   padding-top: 15px;
   padding-bottom: 10px;
 }
 
-/* line 23, ../compass/sass/_nav.scss */
+/* line 10, ../compass/sass/_nav.scss */
 .my-nav {
   padding: 0px;
 }
 
-/* line 27, ../compass/sass/_nav.scss */
+/* line 14, ../compass/sass/_nav.scss */
 .my-nav-two {
   width: 400px;
 }
 
-/* line 31, ../compass/sass/_nav.scss */
+/* line 18, ../compass/sass/_nav.scss */
 .navbar-inverse {
   min-height: 50px;
   padding: 0px;
@@ -323,30 +350,30 @@ a.title-link:hover {
   background-color: transparent;
 }
 
-/* line 40, ../compass/sass/_nav.scss */
+/* line 27, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
   z-index: 510;
 }
-/* line 46, ../compass/sass/_nav.scss */
+/* line 33, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: lightgray;
   text-shadow: none;
 }
 
-/* line 52, ../compass/sass/_nav.scss */
+/* line 39, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: black;
 }
 
-/* line 56, ../compass/sass/_nav.scss */
+/* line 43, ../compass/sass/_nav.scss */
 .navbar-toggle {
   z-index: 510;
 }
 
-/* line 63, ../compass/sass/_nav.scss */
+/* line 50, ../compass/sass/_nav.scss */
 #scroll-nav {
   position: fixed;
   top: 0px;
@@ -361,12 +388,12 @@ a.title-link:hover {
   right: 0;
   margin: auto;
 }
-/* line 76, ../compass/sass/_nav.scss */
+/* line 63, ../compass/sass/_nav.scss */
 #scroll-nav .navbar-inverse {
   min-height: 50px;
   border-radius: 0 0 15px 15px;
 }
-/* line 80, ../compass/sass/_nav.scss */
+/* line 67, ../compass/sass/_nav.scss */
 #scroll-nav .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
@@ -402,25 +429,29 @@ body {
   font-family: Echanted;
   src: url("../fonts/Enchanted-Land.otf");
 }
-/* line 24, ../compass/sass/_font.scss */
+@font-face {
+  font-family: Roth;
+  src: url("../fonts/rothenbg.ttf");
+}
+/* line 30, ../compass/sass/_font.scss */
 h3 {
   font-family: Echanted;
   font-size: 35px;
 }
 
-/* line 28, ../compass/sass/_font.scss */
+/* line 34, ../compass/sass/_font.scss */
 .big-letter {
-  font-family: "Kelly", sans-serif;
+  font-family: "Roth", sans-serif;
   font-size: 60px;
 }
 
-/* line 32, ../compass/sass/_font.scss */
+/* line 38, ../compass/sass/_font.scss */
 .small-letter {
-  font-family: "Kelly", sans-serif;
+  font-family: "Roth", sans-serif;
   font-size: 30px;
 }
 
-/* line 38, ../compass/sass/_font.scss */
+/* line 44, ../compass/sass/_font.scss */
 .fa {
   margin-right: 5px;
 }

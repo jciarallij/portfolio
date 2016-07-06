@@ -1,4 +1,4 @@
-var portfolioApp = angular.module('portfolioApp', ['ngRoute', 'ngAnimate']);
+var portfolioApp = angular.module('portfolioApp', ['ngRoute']);
 
 portfolioApp.directive('checkImage', function($http) {
     return {

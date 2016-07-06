@@ -1,9 +1,6 @@
 // Full page body styles
 #scroll-wrapper {
-    // background: url("../img/Background.png");
-    // background-size: cover;
-    // background-attachment: fixed;
-    // background-position: center;
+
 }
 
 p {
@@ -27,7 +24,7 @@ body {
 }
 
 .section-title {
-    font-family: Kelly;
+    font-family: Roth;
     font-size: 30px;
     color: black;
     float: left;
@@ -102,14 +99,18 @@ body {
 
 // Custom nav markers 
 .my-nav {
-    li {
+    
+
+
+    li.li-projects,li.li-skills,li.li-resume,li.li-contact {
+        font-family: Echanted;
         width: 120px;
         height: 180px;
-        padding-top: 15px;
+        padding-top: 18px;
         position: relative;
         background: url("../img/newbookmark.png");
         color: white;
-        font-size: 12px;
+        font-size: 14px;
         letter-spacing: 0.2em;
         text-align: center;
         text-transform: uppercase;
@@ -117,15 +118,40 @@ body {
         transition-property: background;
         transition-duration: .5s;
         transition-timing-function: linear;
+        text-shadow: 0 2px 3px black, 0 -1px 2px black;
+        color: white;
         .fa {
-            font-size: 30px;
-            padding-top: 3px;
+            font-size: 35px;
+            padding-top: 6px;
             padding-left: 8px;
         }
     }
     li:hover {
         background: url("../img/newbookmarkanimate.png");
     }
+    li.li-skills {
+        background: url("../img/newbookmarkblue.png");
+        &:hover{
+            background: url("../img/newbookmarkblueanimate2.png");
+
+        }
+    }
+
+    li.li-contact {
+        background: url("../img/newbookmarkgreen.png");
+        &:hover{
+            background: url("../img/newbookmarkgreenanimate.png");
+
+        }
+    }
+    li.li-resume {
+        background: url("../img/newbookmarkred.png");
+        &:hover{
+            background: url("../img/newbookmarkredanimate.png");
+
+        }
+    }
+    
 }
 
 // 
