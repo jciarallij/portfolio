@@ -1,28 +1,32 @@
-/* line 6, ../compass/sass/_base.scss */
-p {
-  text-indent: 25px;
-}
-
 /* line 10, ../compass/sass/_base.scss */
-p.no-indent {
-  text-indent: 0px;
+#title-container {
+  float: left;
+  position: absolute;
+  top: 0px;
+  color: black;
+  font-family: "Roth", sans-serif;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+/* line 19, ../compass/sass/_base.scss */
+#title-container h1 {
+  font-size: 60px;
+}
+/* line 22, ../compass/sass/_base.scss */
+#title-container h3.text-center {
+  font-size: 60px;
+  position: relative;
+  top: -50px;
 }
 
-/* line 14, ../compass/sass/_base.scss */
+/* line 29, ../compass/sass/_base.scss */
 .project-titles {
   color: #ffd700;
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-/* line 19, ../compass/sass/_base.scss */
-body {
-  background: url("../img/main-background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-/* line 26, ../compass/sass/_base.scss */
+/* line 41, ../compass/sass/_base.scss */
 .section-title {
   font-family: Roth;
   font-size: 30px;
@@ -30,82 +34,85 @@ body {
   float: left;
 }
 
-/* line 33, ../compass/sass/_base.scss */
+/* line 48, ../compass/sass/_base.scss */
 .content-text {
   clear: both;
 }
 
-/* line 37, ../compass/sass/_base.scss */
+/* line 52, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;
 }
 
-/* line 43, ../compass/sass/_base.scss */
+/* line 58, ../compass/sass/_base.scss */
 .about {
   min-height: 600px;
   margin-bottom: 100px;
 }
 
-/* line 49, ../compass/sass/_base.scss */
+/* line 64, ../compass/sass/_base.scss */
 .my-projects {
   padding: 5px;
 }
 
-/* line 53, ../compass/sass/_base.scss */
+/* line 68, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
 
-/* line 57, ../compass/sass/_base.scss */
+/* line 72, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 61, ../compass/sass/_base.scss */
+/* line 76, ../compass/sass/_base.scss */
 .project-title {
   margin-bottom: 20px;
 }
 
-/* line 67, ../compass/sass/_base.scss */
+/* line 82, ../compass/sass/_base.scss */
 .wax-icon {
   background: none;
 }
 
-/* line 71, ../compass/sass/_base.scss */
+/* line 86, ../compass/sass/_base.scss */
 #contact-section {
   min-height: 600px;
 }
 
-/* line 75, ../compass/sass/_base.scss */
+/* line 90, ../compass/sass/_base.scss */
 .section-title-contact {
   font-family: Kelly;
   font-size: 30px;
   color: black;
 }
 
-/* line 82, ../compass/sass/_base.scss */
+/* line 97, ../compass/sass/_base.scss */
 #skills-wrapper {
   min-height: 600px;
 }
 
-/* line 86, ../compass/sass/_base.scss */
+/* line 101, ../compass/sass/_base.scss */
 .skills-title {
   margin-top: 100px;
 }
 
-/* line 90, ../compass/sass/_base.scss */
+/* line 105, ../compass/sass/_base.scss */
 .about-title {
   margin-top: 100px;
 }
 
-/* line 95, ../compass/sass/_base.scss */
+/* line 110, ../compass/sass/_base.scss */
 #information p {
   text-indent: 0px;
 }
 
-/* line 105, ../compass/sass/_base.scss */
-.my-nav li.li-projects, .my-nav li.li-skills, .my-nav li.li-resume, .my-nav li.li-contact {
+/* line 117, ../compass/sass/_base.scss */
+.my-nav li.li-projects,
+.my-nav li.li-skills,
+.my-nav li.li-resume,
+.my-nav li.li-contact {
   font-family: Echanted;
   width: 120px;
   height: 180px;
@@ -124,52 +131,55 @@ body {
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
   color: white;
 }
-/* line 123, ../compass/sass/_base.scss */
-.my-nav li.li-projects .fa, .my-nav li.li-skills .fa, .my-nav li.li-resume .fa, .my-nav li.li-contact .fa {
+/* line 138, ../compass/sass/_base.scss */
+.my-nav li.li-projects .fa,
+.my-nav li.li-skills .fa,
+.my-nav li.li-resume .fa,
+.my-nav li.li-contact .fa {
   font-size: 35px;
   padding-top: 6px;
   padding-left: 8px;
 }
-/* line 129, ../compass/sass/_base.scss */
+/* line 144, ../compass/sass/_base.scss */
 .my-nav li:hover {
   background: url("../img/newbookmarkanimate.png");
 }
-/* line 132, ../compass/sass/_base.scss */
+/* line 147, ../compass/sass/_base.scss */
 .my-nav li.li-skills {
   background: url("../img/newbookmarkblue.png");
 }
-/* line 134, ../compass/sass/_base.scss */
+/* line 149, ../compass/sass/_base.scss */
 .my-nav li.li-skills:hover {
   background: url("../img/newbookmarkblueanimate2.png");
 }
-/* line 140, ../compass/sass/_base.scss */
+/* line 153, ../compass/sass/_base.scss */
 .my-nav li.li-contact {
   background: url("../img/newbookmarkgreen.png");
 }
-/* line 142, ../compass/sass/_base.scss */
+/* line 155, ../compass/sass/_base.scss */
 .my-nav li.li-contact:hover {
   background: url("../img/newbookmarkgreenanimate.png");
 }
-/* line 147, ../compass/sass/_base.scss */
+/* line 159, ../compass/sass/_base.scss */
 .my-nav li.li-resume {
   background: url("../img/newbookmarkred.png");
 }
-/* line 149, ../compass/sass/_base.scss */
+/* line 161, ../compass/sass/_base.scss */
 .my-nav li.li-resume:hover {
   background: url("../img/newbookmarkredanimate.png");
 }
 
-/* line 159, ../compass/sass/_base.scss */
+/* line 169, ../compass/sass/_base.scss */
 .message-wrapper .row {
   margin: 0px;
 }
 
-/* line 164, ../compass/sass/_base.scss */
+/* line 174, ../compass/sass/_base.scss */
 .message-wrapper.row {
   margin: 0px;
 }
 
-/* line 169, ../compass/sass/_base.scss */
+/* line 179, ../compass/sass/_base.scss */
 #my-footer {
   background-color: #222;
   border-color: #080808;
@@ -181,12 +191,12 @@ body {
   bottom: 0;
 }
 
-/* line 180, ../compass/sass/_base.scss */
+/* line 190, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 185, ../compass/sass/_base.scss */
+/* line 195, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
@@ -195,6 +205,26 @@ p.footer-text {
   bottom: 0;
   left: 5%;
   z-index: 500;
+}
+
+/* line 206, ../compass/sass/_base.scss */
+.container.bg-img {
+  background-color: lightgray;
+  background: url("../img/main-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* line 214, ../compass/sass/_base.scss */
+.container-fluid {
+  background-color: black;
+  z-index: 100;
+  position: relative;
+  background: url("../img/border.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /* line 1, ../compass/sass/_hovereffect.scss */
@@ -443,15 +473,17 @@ h3 {
 .big-letter {
   font-family: "Roth", sans-serif;
   font-size: 60px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-/* line 38, ../compass/sass/_font.scss */
+/* line 40, ../compass/sass/_font.scss */
 .small-letter {
   font-family: "Roth", sans-serif;
   font-size: 30px;
 }
 
-/* line 44, ../compass/sass/_font.scss */
+/* line 46, ../compass/sass/_font.scss */
 .fa {
   margin-right: 5px;
 }

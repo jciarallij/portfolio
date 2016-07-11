@@ -1,14 +1,29 @@
 // Full page body styles
-#scroll-wrapper {
+#scroll-wrapper {}
 
-}
-
-p {
-    text-indent: 25px;
-}
-
-p.no-indent {
-    text-indent: 0px;
+// p {
+//     text-indent: 25px;
+// }
+// p.no-indent {
+//     text-indent: 0px;
+// }
+#title-container {
+    float: left;
+    position: absolute;
+    top: 0px;
+    color: black;
+    font-family: "Roth", sans-serif;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    padding-left: 15px;
+    h1 {
+        font-size: 60px;
+    }
+    h3.text-center {
+        font-size: 60px;
+        position: relative;
+        top: -50px;
+    }
 }
 
 .project-titles {
@@ -16,13 +31,13 @@ p.no-indent {
     text-shadow: 0 2px 3px black, 0 -1px 2px black;
 }
 
-body {
-    background: url("../img/main-background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-}
-
+// body {
+//     background: url("../img/main-background-test.jpg");
+//     background-size: cover cover;
+//     // background-attachment: fixed;
+//     background-position: top center;
+//     background-repeat: x-repeat;
+// }
 .section-title {
     font-family: Roth;
     font-size: 30px;
@@ -99,10 +114,10 @@ body {
 
 // Custom nav markers 
 .my-nav {
-    
-
-
-    li.li-projects,li.li-skills,li.li-resume,li.li-contact {
+    li.li-projects,
+    li.li-skills,
+    li.li-resume,
+    li.li-contact {
         font-family: Echanted;
         width: 120px;
         height: 180px;
@@ -131,27 +146,22 @@ body {
     }
     li.li-skills {
         background: url("../img/newbookmarkblue.png");
-        &:hover{
+        &:hover {
             background: url("../img/newbookmarkblueanimate2.png");
-
         }
     }
-
     li.li-contact {
         background: url("../img/newbookmarkgreen.png");
-        &:hover{
+        &:hover {
             background: url("../img/newbookmarkgreenanimate.png");
-
         }
     }
     li.li-resume {
         background: url("../img/newbookmarkred.png");
-        &:hover{
+        &:hover {
             background: url("../img/newbookmarkredanimate.png");
-
         }
     }
-    
 }
 
 // 
@@ -191,4 +201,22 @@ p.footer-text {
         left: 5%;
         z-index: 500;
     }
+}
+
+.container.bg-img {
+    background-color: lightgray;
+    background: url("../img/main-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    background-color: black;
+    z-index: 100;
+    position: relative;
+    background: url("../img/border.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
