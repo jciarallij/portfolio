@@ -1,4 +1,4 @@
-/* line 10, ../compass/sass/_base.scss */
+/* line 4, ../compass/sass/_base.scss */
 #title-container {
   float: left;
   position: absolute;
@@ -9,106 +9,112 @@
   padding-top: 15px;
   padding-left: 15px;
 }
-/* line 19, ../compass/sass/_base.scss */
+/* line 13, ../compass/sass/_base.scss */
 #title-container h1 {
   font-size: 60px;
 }
-/* line 22, ../compass/sass/_base.scss */
+/* line 16, ../compass/sass/_base.scss */
 #title-container h3.text-center {
   font-size: 60px;
   position: relative;
-  top: -50px;
+  top: -30px;
+}
+/* line 21, ../compass/sass/_base.scss */
+#title-container h3.text-left {
+  position: relative;
+  top: -40px;
 }
 
 /* line 29, ../compass/sass/_base.scss */
 .project-titles {
-  color: #ffd700;
-  text-shadow: 0 2px 3px black, 0 -1px 2px black;
+  color: black;
 }
 
-/* line 41, ../compass/sass/_base.scss */
+/* line 33, ../compass/sass/_base.scss */
 .section-title {
   font-family: Roth;
   font-size: 30px;
   color: black;
   float: left;
+  margin-bottom: 20px;
 }
 
-/* line 48, ../compass/sass/_base.scss */
+/* line 41, ../compass/sass/_base.scss */
 .content-text {
   clear: both;
 }
 
-/* line 52, ../compass/sass/_base.scss */
+/* line 45, ../compass/sass/_base.scss */
 .main-content h2 {
   line-height: 11px;
   margin-bottom: 40px;
 }
 
-/* line 58, ../compass/sass/_base.scss */
+/* line 51, ../compass/sass/_base.scss */
 .about {
+  margin-top: 50px;
   min-height: 600px;
   margin-bottom: 100px;
 }
 
-/* line 64, ../compass/sass/_base.scss */
+/* line 58, ../compass/sass/_base.scss */
 .my-projects {
   padding: 5px;
 }
 
-/* line 68, ../compass/sass/_base.scss */
+/* line 62, ../compass/sass/_base.scss */
 .project-img {
   min-height: 250px;
 }
 
-/* line 72, ../compass/sass/_base.scss */
+/* line 66, ../compass/sass/_base.scss */
 .btm-row {
   margin-bottom: 100px;
 }
 
-/* line 76, ../compass/sass/_base.scss */
+/* line 70, ../compass/sass/_base.scss */
 .project-title {
   margin-bottom: 20px;
 }
 
-/* line 82, ../compass/sass/_base.scss */
+/* line 76, ../compass/sass/_base.scss */
 .wax-icon {
   background: none;
 }
 
-/* line 86, ../compass/sass/_base.scss */
+/* line 80, ../compass/sass/_base.scss */
 #contact-section {
   min-height: 600px;
 }
 
-/* line 90, ../compass/sass/_base.scss */
+/* line 84, ../compass/sass/_base.scss */
 .section-title-contact {
   font-family: Kelly;
   font-size: 30px;
   color: black;
 }
 
-/* line 97, ../compass/sass/_base.scss */
+/* line 91, ../compass/sass/_base.scss */
 #skills-wrapper {
   min-height: 600px;
 }
 
-/* line 101, ../compass/sass/_base.scss */
+/* line 95, ../compass/sass/_base.scss */
 .skills-title {
   margin-top: 100px;
 }
 
-/* line 105, ../compass/sass/_base.scss */
+/* line 99, ../compass/sass/_base.scss */
 .about-title {
   margin-top: 100px;
 }
 
-/* line 110, ../compass/sass/_base.scss */
+/* line 104, ../compass/sass/_base.scss */
 #information p {
   text-indent: 0px;
 }
 
-/* line 117, ../compass/sass/_base.scss */
+/* line 111, ../compass/sass/_base.scss */
 .my-nav li.li-projects,
 .my-nav li.li-skills,
 .my-nav li.li-resume,
@@ -131,7 +137,7 @@
   text-shadow: 0 2px 3px black, 0 -1px 2px black;
   color: white;
 }
-/* line 138, ../compass/sass/_base.scss */
+/* line 132, ../compass/sass/_base.scss */
 .my-nav li.li-projects .fa,
 .my-nav li.li-skills .fa,
 .my-nav li.li-resume .fa,
@@ -140,63 +146,62 @@
   padding-top: 6px;
   padding-left: 8px;
 }
-/* line 144, ../compass/sass/_base.scss */
-.my-nav li:hover {
-  background: url("../img/newbookmarkanimate.png");
-}
-/* line 147, ../compass/sass/_base.scss */
+/* line 141, ../compass/sass/_base.scss */
 .my-nav li.li-skills {
   background: url("../img/newbookmarkblue.png");
 }
-/* line 149, ../compass/sass/_base.scss */
+/* line 143, ../compass/sass/_base.scss */
 .my-nav li.li-skills:hover {
   background: url("../img/newbookmarkblueanimate2.png");
 }
-/* line 153, ../compass/sass/_base.scss */
+/* line 147, ../compass/sass/_base.scss */
 .my-nav li.li-contact {
   background: url("../img/newbookmarkgreen.png");
 }
-/* line 155, ../compass/sass/_base.scss */
+/* line 149, ../compass/sass/_base.scss */
 .my-nav li.li-contact:hover {
   background: url("../img/newbookmarkgreenanimate.png");
 }
-/* line 159, ../compass/sass/_base.scss */
+/* line 153, ../compass/sass/_base.scss */
 .my-nav li.li-resume {
   background: url("../img/newbookmarkred.png");
 }
-/* line 161, ../compass/sass/_base.scss */
+/* line 155, ../compass/sass/_base.scss */
 .my-nav li.li-resume:hover {
   background: url("../img/newbookmarkredanimate.png");
 }
 
-/* line 169, ../compass/sass/_base.scss */
+/* line 163, ../compass/sass/_base.scss */
 .message-wrapper .row {
   margin: 0px;
 }
 
-/* line 174, ../compass/sass/_base.scss */
+/* line 168, ../compass/sass/_base.scss */
 .message-wrapper.row {
   margin: 0px;
 }
 
-/* line 179, ../compass/sass/_base.scss */
+/* line 173, ../compass/sass/_base.scss */
 #my-footer {
-  background-color: #222;
-  border-color: #080808;
+  background-color: transparent;
+  border-color: transparent;
   min-height: 85px;
-  color: #ffd700;
+  color: black;
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
   z-index: 510;
   position: relative;
   bottom: 0;
+  border-top: 2px solid black;
+  width: 90%;
+  margin: auto;
 }
 
-/* line 190, ../compass/sass/_base.scss */
+/* line 187, ../compass/sass/_base.scss */
 p.footer-text {
   margin-top: 35px;
 }
 
-/* line 195, ../compass/sass/_base.scss */
+/* line 192, ../compass/sass/_base.scss */
 .custom-footer img {
   width: 89%;
   height: 100px;
@@ -207,7 +212,7 @@ p.footer-text {
   z-index: 500;
 }
 
-/* line 206, ../compass/sass/_base.scss */
+/* line 203, ../compass/sass/_base.scss */
 .container.bg-img {
   background-color: lightgray;
   background: url("../img/main-background.jpg");
@@ -216,17 +221,142 @@ p.footer-text {
   background-attachment: fixed;
 }
 
-/* line 214, ../compass/sass/_base.scss */
+/* line 211, ../compass/sass/_base.scss */
 .container-fluid {
   background-color: black;
   z-index: 100;
   position: relative;
-  background: url("../img/border.jpg");
+  background: url("../img/border2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 223, ../compass/sass/_base.scss */
+  #title-container {
+    display: none;
+  }
+
+  /* line 226, ../compass/sass/_base.scss */
+  .container-fluid.bg-img {
+    background: none;
+    padding: 0px;
+  }
+
+  /* line 230, ../compass/sass/_base.scss */
+  .site-nav {
+    display: none;
+  }
+
+  /* line 233, ../compass/sass/_base.scss */
+  .navbar-inverse {
+    border: none;
+    background-color: purple;
+    border-bottom: 1px solid black;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 242, ../compass/sass/_base.scss */
+  .my-nav li.li-projects,
+  .my-nav li.li-skills,
+  .my-nav li.li-resume,
+  .my-nav li.li-contact {
+    width: 100px;
+    height: 180px;
+    padding-top: 15px;
+    position: relative;
+    color: white;
+    font-size: 13px;
+    margin-right: 15px;
+  }
+  /* line 253, ../compass/sass/_base.scss */
+  .my-nav li.li-projects .fa,
+  .my-nav li.li-skills .fa,
+  .my-nav li.li-resume .fa,
+  .my-nav li.li-contact .fa {
+    font-size: 30px;
+    padding-top: 6px;
+    padding-left: 8px;
+  }
+
+  /* line 260, ../compass/sass/_base.scss */
+  #title-container {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  /* line 263, ../compass/sass/_base.scss */
+  #title-container h1 {
+    font-size: 55px;
+  }
+  /* line 266, ../compass/sass/_base.scss */
+  #title-container h3.text-center {
+    font-size: 55px;
+    position: relative;
+    top: -30px;
+  }
+  /* line 271, ../compass/sass/_base.scss */
+  #title-container h3.text-left {
+    font-size: 35px;
+    position: relative;
+    top: -40px;
+  }
+}
+@media screen and (max-width: 990px) {
+  /* line 281, ../compass/sass/_base.scss */
+  .my-nav li.li-projects,
+  .my-nav li.li-skills,
+  .my-nav li.li-resume,
+  .my-nav li.li-contact {
+    width: 60px;
+    height: 180px;
+    padding-top: 12px;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  /* line 290, ../compass/sass/_base.scss */
+  .my-nav li.li-projects .fa,
+  .my-nav li.li-skills .fa,
+  .my-nav li.li-resume .fa,
+  .my-nav li.li-contact .fa {
+    font-size: 20px;
+    padding-top: 6px;
+    padding-left: 8px;
+  }
+
+  /* line 297, ../compass/sass/_base.scss */
+  #title-container {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  /* line 300, ../compass/sass/_base.scss */
+  #title-container h1 {
+    font-size: 40px;
+  }
+  /* line 303, ../compass/sass/_base.scss */
+  #title-container h3.text-center {
+    font-size: 40px;
+    position: relative;
+    top: -30px;
+  }
+  /* line 308, ../compass/sass/_base.scss */
+  #title-container h3.text-left {
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 317, ../compass/sass/_base.scss */
+  .mobile-nav {
+    display: none;
+  }
+
+  /* line 320, ../compass/sass/_base.scss */
+  .navbar-brand {
+    display: none;
+  }
+}
 /* line 1, ../compass/sass/_hovereffect.scss */
 .hover-text:hover {
   display: block;
@@ -354,23 +484,23 @@ a.title-link:hover {
   text-indent: 0px;
 }
 
-/* line 5, ../compass/sass/_nav.scss */
+/* line 2, ../compass/sass/_nav.scss */
 .navbar-nav > li > a {
   padding-top: 15px;
   padding-bottom: 10px;
 }
 
-/* line 10, ../compass/sass/_nav.scss */
+/* line 7, ../compass/sass/_nav.scss */
 .my-nav {
   padding: 0px;
 }
 
-/* line 14, ../compass/sass/_nav.scss */
+/* line 11, ../compass/sass/_nav.scss */
 .my-nav-two {
   width: 400px;
 }
 
-/* line 18, ../compass/sass/_nav.scss */
+/* line 15, ../compass/sass/_nav.scss */
 .navbar-inverse {
   min-height: 50px;
   padding: 0px;
@@ -380,30 +510,65 @@ a.title-link:hover {
   background-color: transparent;
 }
 
-/* line 27, ../compass/sass/_nav.scss */
+/* line 24, ../compass/sass/_nav.scss */
+.navbar-inverse .navbar-brand {
+  color: black;
+  font-size: 20px;
+  font-family: Echanted;
+}
+/* line 28, ../compass/sass/_nav.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: violet;
+}
+
+/* line 34, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
   text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
   z-index: 510;
 }
-/* line 33, ../compass/sass/_nav.scss */
+/* line 40, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: lightgray;
   text-shadow: none;
 }
 
-/* line 39, ../compass/sass/_nav.scss */
+/* line 46, ../compass/sass/_nav.scss */
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: black;
 }
 
-/* line 43, ../compass/sass/_nav.scss */
+/* line 50, ../compass/sass/_nav.scss */
 .navbar-toggle {
   z-index: 510;
 }
 
-/* line 50, ../compass/sass/_nav.scss */
+@media screen and (max-width: 767px) {
+  /* line 56, ../compass/sass/_nav.scss */
+  #title-container {
+    display: none;
+  }
+
+  /* line 59, ../compass/sass/_nav.scss */
+  .container-fluid.bg-img {
+    background: none;
+    padding: 0px;
+  }
+
+  /* line 63, ../compass/sass/_nav.scss */
+  .site-nav {
+    display: none;
+  }
+
+  /* line 66, ../compass/sass/_nav.scss */
+  .navbar-inverse {
+    border: none;
+    background-color: purple;
+    border-bottom: 1px solid black;
+  }
+}
+/* line 75, ../compass/sass/_nav.scss */
 #scroll-nav {
   position: fixed;
   top: 0px;
@@ -418,12 +583,12 @@ a.title-link:hover {
   right: 0;
   margin: auto;
 }
-/* line 63, ../compass/sass/_nav.scss */
+/* line 88, ../compass/sass/_nav.scss */
 #scroll-nav .navbar-inverse {
   min-height: 50px;
   border-radius: 0 0 15px 15px;
 }
-/* line 67, ../compass/sass/_nav.scss */
+/* line 92, ../compass/sass/_nav.scss */
 #scroll-nav .navbar-inverse .navbar-nav > li > a {
   text-transform: uppercase;
   color: #ffd700;
@@ -473,7 +638,7 @@ h3 {
 .big-letter {
   font-family: "Roth", sans-serif;
   font-size: 60px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 10px;
 }
 

@@ -1,12 +1,6 @@
 // Full page body styles
 #scroll-wrapper {}
 
-// p {
-//     text-indent: 25px;
-// }
-// p.no-indent {
-//     text-indent: 0px;
-// }
 #title-container {
     float: left;
     position: absolute;
@@ -22,27 +16,26 @@
     h3.text-center {
         font-size: 60px;
         position: relative;
-        top: -50px;
+        top: -30px;
+    }
+    h3.text-left {
+        position: relative;
+        top: -40px;
     }
 }
 
+
+
 .project-titles {
-    color: #ffd700;
-    text-shadow: 0 2px 3px black, 0 -1px 2px black;
+    color: black;
 }
 
-// body {
-//     background: url("../img/main-background-test.jpg");
-//     background-size: cover cover;
-//     // background-attachment: fixed;
-//     background-position: top center;
-//     background-repeat: x-repeat;
-// }
 .section-title {
     font-family: Roth;
     font-size: 30px;
     color: black;
     float: left;
+    margin-bottom: 20px;
 }
 
 .content-text {
@@ -56,6 +49,7 @@
 
 // About Section
 .about {
+    margin-top: 50px;
     min-height: 600px;
     margin-bottom: 100px;
 }
@@ -141,9 +135,9 @@
             padding-left: 8px;
         }
     }
-    li:hover {
-        background: url("../img/newbookmarkanimate.png");
-    }
+    // li:hover {
+    //     background: url("../img/newbookmarkanimate.png");
+    // }
     li.li-skills {
         background: url("../img/newbookmarkblue.png");
         &:hover {
@@ -177,14 +171,17 @@
 
 // Footer 
 #my-footer {
-    background-color: #222;
-    border-color: #080808;
+    background-color: transparent;
+    border-color: transparent;
     min-height: 85px;
-    color: #ffd700;
+    color: black;
     text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
     z-index: 510;
     position: relative;
     bottom: 0;
+    border-top: 2px solid black;
+    width: 90%;
+    margin: auto;
 }
 
 p.footer-text {
@@ -215,8 +212,112 @@ p.footer-text {
     background-color: black;
     z-index: 100;
     position: relative;
-    background: url("../img/border.jpg");
+    background: url("../img/border2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+// Media Tags!
+@media screen and (max-width: 767px) {
+    #title-container {
+        display: none;
+    }
+    .container-fluid.bg-img {
+        background: none;
+        padding: 0px;
+    }
+    .site-nav {
+        display: none;
+    }
+    .navbar-inverse {
+        border: none;
+        background-color: purple;
+        border-bottom: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .my-nav {
+        li.li-projects,
+        li.li-skills,
+        li.li-resume,
+        li.li-contact {
+            width: 100px;
+            height: 180px;
+            padding-top: 15px;
+            position: relative;
+            color: white;
+            font-size: 13px;
+            margin-right: 15px;
+            .fa {
+                font-size: 30px;
+                padding-top: 6px;
+                padding-left: 8px;
+            }
+        }
+    }
+    #title-container {
+        padding-top: 10px;
+        padding-left: 10px;
+        h1 {
+            font-size: 55px;
+        }
+        h3.text-center {
+            font-size: 55px;
+            position: relative;
+            top: -30px;
+        }
+        h3.text-left {
+            font-size: 35px;
+            position: relative;
+            top: -40px;
+        }
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .my-nav {
+        li.li-projects,
+        li.li-skills,
+        li.li-resume,
+        li.li-contact {
+            width: 60px;
+            height: 180px;
+            padding-top: 12px;
+            font-size: 10px;
+            margin-right: 10px;
+            .fa {
+                font-size: 20px;
+                padding-top: 6px;
+                padding-left: 8px;
+            }
+        }
+    }
+    #title-container {
+        padding-top: 10px;
+        padding-left: 10px;
+        h1 {
+            font-size: 40px;
+        }
+        h3.text-center {
+            font-size: 40px;
+            position: relative;
+            top: -30px;
+        }
+        h3.text-left {
+            font-size: 30px;
+            position: relative;
+            top: -40px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-nav {
+        display: none;
+    }
+    .navbar-brand {
+        display: none;
+    }
 }

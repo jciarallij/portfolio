@@ -1,7 +1,4 @@
-
 // Main index.html Navbar
-
-
 .navbar-nav>li>a {
     padding-top: 15px;
     padding-bottom: 10px;
@@ -24,6 +21,16 @@
     background-color: transparent;
 }
 
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-size: 20px;
+    font-family: Echanted;
+    &:hover {
+        color: violet;
+    }
+}
+
+
 .navbar-inverse .navbar-nav>li>a {
     text-transform: uppercase;
     color: #ffd700;
@@ -44,9 +51,27 @@
     z-index: 510;
 }
 
+// Media Tags!
+@media screen and (max-width: 767px) {
+    #title-container {
+        display: none;
+    }
+    .container-fluid.bg-img {
+        background: none;
+        padding: 0px;
+    }
+    .site-nav {
+        display: none;
+    }
+    .navbar-inverse {
+        border: none;
+        background-color: purple;
+        border-bottom: 1px solid black;
+    }
+}
+
 // Secondary Navbar that appears from scrolling down the page.
 // For my scrolling navbar that appears after scrolling so far.
-
 #scroll-nav {
     position: fixed;
     top: 0px;
