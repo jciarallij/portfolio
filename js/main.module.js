@@ -29,8 +29,26 @@ portfolioApp.config(function($routeProvider) {
 
 portfolioApp.controller('mainController', function($scope, $http, $routeParams, $interval, $location) {
 
-    console.log("Controller Loaded");
+    console.log("Ciaralli.com Controller has loaded!");
     $scope.name = "";
+
+    $scope.ticket = false;
+    $scope.projectTicket = true;
+
+    $scope.twitter = false;
+    $scope.projectTwitter = true;
+
+    $scope.blackjack = false;
+    $scope.projectBlackjack = true;
+
+    $scope.dollar = false;
+    $scope.projectDollar = true;
+
+    $scope.mygrub = false;
+    $scope.projectMygrub = true;
+
+    $scope.roast = false;
+    $scope.projectRoast = true;
 
 
     $scope.emailFunc = function() {
@@ -60,5 +78,28 @@ portfolioApp.controller('mainController', function($scope, $http, $routeParams, 
     };
 
 
+    $scope.showProject = function(project) {
+        if (project === 1) {
+            $scope.ticket = true;
+            $scope.projectTicket = false;
+        } else if (project === 2) {
+            $scope.twitter = true;
+            $scope.projectTwitter = false;
+        } else if (project === 3) {
+            $scope.blackjack = true;
+            $scope.projectBlackjack = false;
+        } else if (project === 4) {
+            $scope.dollar = true;
+            $scope.projectDollar = false;
+        } else if (project === 5) {
+            $scope.mygrub = true;
+            $scope.projectMygrub = false;
+        } else if (project === 6) {
+            $scope.roast = true;
+            $scope.projectRoast = false;
+        }
+
+
+    };
 
 });

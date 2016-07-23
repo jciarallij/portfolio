@@ -24,8 +24,6 @@
     }
 }
 
-
-
 .project-titles {
     color: black;
 }
@@ -62,7 +60,6 @@
 .project-img {
     min-height: 250px;
 }
-
 .btm-row {
     margin-bottom: 100px;
 }
@@ -117,7 +114,6 @@
         height: 180px;
         padding-top: 18px;
         position: relative;
-        background: url("../img/newbookmark.png");
         color: white;
         font-size: 14px;
         letter-spacing: 0.2em;
@@ -135,9 +131,12 @@
             padding-left: 8px;
         }
     }
-    // li:hover {
-    //     background: url("../img/newbookmarkanimate.png");
-    // }
+    li.li-projects {
+         background: url("../img/newbookmark.png");
+        &:hover {
+            background: url("../img/newbookmarkanimate.png");
+        }
+    }
     li.li-skills {
         background: url("../img/newbookmarkblue.png");
         &:hover {
